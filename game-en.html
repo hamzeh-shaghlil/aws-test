@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<title>Baloon</title>
+<script>
+  $(document).ready(function(e) {
+    var Screenheight= $(window).height();
+	$("#landing-page-bg").css('height', Screenheight);
+
+		$(window).resize(function(){
+		  var Screenheight= $(window).height();
+	$("#landing-page-bg").css('height', Screenheight);
+		});
+
+	$("#start-btn").click(function(){
+		$('body').css( 'cursor', 'url(images/cursor.png), auto' );
+
+		});
+
+});
+
+
+</script>
+<style>
+.messagediv
+{
+	display:none;
+ /* position:absolute;
+  top:40%;
+  left:40%;
+  font-family: 'Contrail One', cursive;
+  font-size:30px;
+  color:#fff;
+  text-shadow:1px 1px 0 #000;*/
+}
+</style>
+<script>
+/*
+var canvas = document.getElementById("canvas");
+ctx = canvas.getContext("2d");
+
+canvas.width = 800;
+canvas.height = 600;
+
+var background = new Image();
+background.src = "bg.jpg";
+
+// Make sure the image is loaded first otherwise nothing will draw.
+background.onload = function(){
+    ctx.drawImage(background,0,0);
+}​
+*/
+var counter = 0;
+ var totalhits = 0;
+ var currentRound = 1;
+
+ var total_score = 0;
+ var bonus = 0;
+ var timeleft=0;
+ var level_completed = 0;
+ var last_score_before_try_again = 0;
+
+function Game(){
+  this.isPaused = true;
+  this.score = null;
+  this.speed = null;
+  this.density = null;
+  this.remainingLives = 2; //5
+  this.playElement = document.getElementById('start-btn');
+  this.scoreElement = document.getElementById('score-container');
+  this.livesElement = document.getElementById('lives-container');
+  this.canvasElement = document.getElementById('my_canvas');
+  this.timer = null;
+  this.startedTime = null; //time from start game
+  this.intervalId = null;
+  this.updateTime = null;
+  this.densityStep = null;
+  this.balloonsArray = null;
+  var thiz = this;
+
+
+  this.updater = function(){
+	console.log("updater called");
+    thiz.updateGame(counter);
+	counter++;
+	if(counter > 10 * 50)
+	{
+		//thiz.pauseGame();
+	}
+
+	if(currentRound == 1)
+	{
+		if(totalhits > 4)
+		{
+			//success
+
+			level_completed = 1;
+
+
+		}
+	}
+	else if(currentRound == 2)
+	{
+		if(totalhits > 9)
+		{
+			//success
+			level_completed = 2;
+
+		}
+	}
+	else if(currentRound == 3)
+	{
+		if(totalhits > 14)
+		{
+			//success
+			level_completed = 3;
+
+		}
+	}
+
+  };
+}
+Game.prototype.startGame = function(){
+  this.playElement.style.display = "none";
+  this.intervalId = setInterval(this.updater, this.updateTime);
+
+};
+Game.prototype.pauseGame = function(){
+  clearInterval(this.intervalId);
+};
+Game.prototype.updateScore = function(score){
+
+  this.scoreElem.innerHTML = score;
+};
+var internalcounter = 0;
+Game.prototype.updateGame = function(i){
+  this.densityStep += this.density;
+
+  if(this.densityStep >= 1 && this.balloonsArray.length < 80) //30
+  {
+    //for(var i = 0; i < parseInt(this.densityStep, 10); i++)
+
+	//for(var i = 0; i < 10; i++)
+    {
+		internalcounter++;
+		var tempBalloon;
+		//console.log("i -- "+i);
+		//console.log("internalcounter "+internalcounter);
+		tempBalloon = new Balloon(0, -100, 'green', 'normal', 1);
+		/*if(internalcounter % 2 == 0)
+		{
+			console.log("green");
+			tempBalloon = new Balloon(0, -100, 'green', 'normal', 1);
+		}
+		else
+		{
+			console.log("red");
+			tempBalloon = new Balloon(0, -53, 'red', 'normal', 150);
+		}
+    */
+
+      tempBalloon.positionX = tempBalloon.generateRandomXPos();
+
+
+      var el = document.createElement('div');
+
+	  if(internalcounter % 2 == 0)
+		{
+			el.className = 'balloon '+ tempBalloon.color;
+			//console.log(el.className);
+		}
+		else if(internalcounter % 3 == 0)
+		{
+			el.className = 'balloon purple';
+		}
+		else
+		{
+			el.className = 'balloon red';
+			//el.className = 'balloon '+ tempBalloon.color;
+			//console.log(el.className);
+		}
+
+      el.id = "id"+internalcounter;
+     // el.style.left = 100  +  tempBalloon.positionX+'px';
+	  el.style.left = 10  +  tempBalloon.positionX+'%';
+      el.style.bottom = tempBalloon.positionY+'px';
+      var thiz = this;
+      var index = this.balloonsArray.length;
+      el.onclick = function(e){
+	    console.log("clicked on "+this.className);
+        //thiz.score += thiz.balloonsArray[index].points;
+        //thiz.updateScore(thiz.score);
+		//console.log("e.clientX "+e.clientX);
+
+
+		if(currentRound == 1 && this.className == "balloon purple")
+		{
+			total_score++;
+			totalhits++;
+			jQuery("#scoreanim1").show();
+			jQuery("#scoreanim1").css('opacity', 1);
+			jQuery("#scoreanim1").css('left', e.clientX + 40);
+			jQuery("#scoreanim1").css('top', e.clientY  - 50);
+			jQuery("#scoreanim1").animate({top: e.clientY - 90, opacity: 0});
+		}
+    if(currentRound == 1 && this.className == "balloon red")
+		{
+			total_score++;
+			totalhits++;
+			jQuery("#scoreanim2").show();
+			jQuery("#scoreanim2").css('opacity', 1);
+			jQuery("#scoreanim2").css('left', e.clientX + 40);
+			jQuery("#scoreanim2").css('top', e.clientY  - 50);
+			jQuery("#scoreanim2").animate({top: e.clientY - 90, opacity: 0});
+		}
+    if(currentRound == 1 && this.className == "balloon green")
+    {
+      total_score++;
+      totalhits++;
+      jQuery("#scoreanim3").show();
+      jQuery("#scoreanim3").css('opacity', 1);
+      jQuery("#scoreanim3").css('left', e.clientX + 40);
+      jQuery("#scoreanim3").css('top', e.clientY  - 50);
+      jQuery("#scoreanim3").animate({top: e.clientY - 90, opacity: 0});
+    }
+		else if(currentRound == 2)
+		{
+			if(this.className == "balloon red")
+			{
+				total_score++;
+				totalhits++;
+
+				jQuery("#scoreanim2").show();
+				jQuery("#scoreanim2").css('opacity', 1);
+				jQuery("#scoreanim2").css('left', e.clientX + 40);
+				jQuery("#scoreanim2").css('top', e.clientY  - 50);
+				jQuery("#scoreanim2").animate({top: e.clientY - 90, opacity: 0});
+			}
+
+		}
+		else if(currentRound == 3)
+		{
+			if(this.className == "balloon green")
+			{
+				total_score++;
+				totalhits++;
+
+				jQuery("#scoreanim3").show();
+				jQuery("#scoreanim3").css('opacity', 1);
+				jQuery("#scoreanim3").css('left', e.clientX + 40);
+				jQuery("#scoreanim3").css('top', e.clientY  - 50);
+				jQuery("#scoreanim3").animate({top: e.clientY - 90, opacity: 0});
+			}
+
+		}
+
+		thiz.updateScore(total_score);
+
+        this.parentNode.removeChild(el);
+		stopAudio("myAudio1");
+		playAudio("myAudio1");
+		//this.removeChild(el);
+		//thiz.removeChild(el);
+		//parentNode.removeChild(this);
+
+		//console.log("removing .. "+thiz.id);
+      };
+      this.canvasElement.appendChild(el);
+      var tempObj = {};
+      tempObj.el = el;
+      tempObj.speed = tempBalloon.getRandomSpeed();
+      tempObj.points = tempBalloon.points;
+      this.balloonsArray.push(tempObj);
+      //console.log(tempObj.speed);
+    }
+    this.densityStep = 0;
+  }
+  for(var i = 0; i < this.balloonsArray.length; i++)
+  {
+    this.balloonsArray[i].el.style.bottom = (parseInt(this.balloonsArray[i].el.style.bottom, 10)+(3+this.balloonsArray[i].speed))+'px';
+
+	//console.log("this.balloonsArray[i].el.style.bottom "+i+" -- "+parseInt(this.balloonsArray[i].el.style.bottom));
+	//console.log("this.parentNode.getChild(el) "+i+" -- "+parseInt(this.balloonsArray[i].el.style.bottom));
+	if(parseInt(this.balloonsArray[i].el.style.bottom) > 700)
+	{
+		//console.log("GONE");
+		//jQuery("#round2").show();
+		//a.pauseGame();
+		//alert("sorry, you missed the balloon");
+	}
+  }
+};
+Game.prototype.endGame = function(){
+
+};
+Game.prototype.initGame = function(){
+
+  this.isPaused = true;
+  this.score = 0;
+  this.speed = 0.01;
+  this.speed = 0.005;
+
+  this.density = 1/15;
+  this.remainingLives = 5;
+  this.updateTime = 50;
+  this.densityStep = 1;
+  this.balloonsArray = [];
+  this.scoreElem = document.getElementById('score-count');
+
+};
+function Balloon(x, y, color, type, points){
+  this.positionX = x;
+  this.positionY = y;
+  this.color = color;
+  this.type = type;
+  this.points = points;
+}
+Balloon.prototype.getRandomSpeed = function(){
+  return Math.floor(Math.random() * 201)/100;
+};
+Balloon.prototype.generateRandomXPos = function(){
+  //console.log('document width = ', Math.floor(Math.random() * 550));
+ // return Math.floor(Math.random() * 450);
+  return Math.floor(Math.random() * 80);
+};
+var a;
+window.addEventListener('load',function(){
+
+
+
+  a = new Game();
+  a.initGame();
+  document.getElementById('start-btn').onclick = function(){
+    a.startGame();
+	timer();
+	jQuery("#my_canvas").removeClass("paused");
+	jQuery("#my_canvas").fadeIn();
+	jQuery("#level-1").fadeOut();
+	jQuery("#footer").hide();
+	jQuery(".game-logo").show();
+	jQuery("#timer-label").show();
+	jQuery("#score-label").show();
+	jQuery(".social-link").hide();
+
+  };
+});
+
+function playAudio(tpageno) {
+	var x = document.getElementById(tpageno);
+    x.play();
+}
+
+function pauseAudio(tpageno) {
+	var x = document.getElementById(tpageno);
+    x.pause();
+}
+function stopAudio(tpageno) {
+	var x = document.getElementById(tpageno);
+    x.pause();
+	x.currentTime = 0;
+}
+
+
+function round(no)
+{
+		totalhits = 0;
+		clearInterval(a.intervalId);
+		currentRound = no;
+		//a.speed = 1;
+		a.initGame();
+		jQuery("#my_canvas").show();
+		if(currentRound == 1)
+		{
+			total_score = 0;
+			a.updateTime = 50;
+			document.getElementById("score-count").innerHTML = "0";
+			jQuery(".social-link").hide();
+			jQuery("#timer-label").show();
+			jQuery("#score-label").show();
+		}
+		else if(currentRound == 2)
+		{
+			a.updateTime = 30;
+		}
+		else if(currentRound == 3)
+		{
+			a.updateTime = 20;
+
+		}
+		a.startGame();
+		timer();
+		jQuery("#round2").hide();
+		jQuery("#round3").hide();
+		jQuery("#success").hide();
+}
+
+var intervaltimer;
+function timer()
+{
+	var counter = 30;
+	clearInterval(intervaltimer);
+	intervaltimer = setInterval(function() {
+	document.getElementById("timer-count").innerHTML = counter.toString();
+
+		// Display 'counter' wherever you want to display it.
+		if (counter == 0) {
+			// Display a login box
+
+
+			if(level_completed == 3 && currentRound == 3)
+			{
+				totalhits = 0;
+
+				//timeleft = parseInt(document.getElementById("timer-count").innerHTML);
+				//total_score = timeleft + total_score;
+				document.getElementById("score-count").innerHTML = total_score;
+
+				jQuery("#timer-label").hide();
+				jQuery("#score-label").hide();
+					playAudio("myAudio3");
+
+				jQuery("#success").show();
+				jQuery(".social-link").show();
+				jQuery(".game-logo").hide();
+
+
+				jQuery("#final_score").html(total_score.toString());
+				jQuery("#my_canvas").hide();
+				jQuery("#footer").show();
+
+				clearInterval(intervaltimer);
+				document.getElementById("my_canvas").innerHTML = "";
+				a.pauseGame();
+			}
+			else if (level_completed == 2 && currentRound == 2)
+			{
+				totalhits = 0;
+				playAudio("myAudio2");
+
+				//timeleft = parseInt(document.getElementById("timer-count").innerHTML);
+				//total_score = timeleft + total_score;
+				document.getElementById("score-count").innerHTML = total_score;
+				last_score_before_try_again = total_score;
+
+				jQuery("#round3").show();
+
+				clearInterval(intervaltimer);
+				document.getElementById("my_canvas").innerHTML = "";
+				a.pauseGame();
+			}
+			else if(level_completed == 1 && currentRound == 1)
+			{
+				totalhits = 0;
+
+				playAudio("myAudio2");
+
+				//timeleft = parseInt(document.getElementById("timer-count").innerHTML);
+				//total_score = timeleft + total_score;
+				document.getElementById("score-count").innerHTML = total_score;
+				last_score_before_try_again = total_score;
+
+				jQuery("#round2").show();
+
+
+				clearInterval(intervaltimer);
+				document.getElementById("my_canvas").innerHTML = "";
+				a.pauseGame();
+			}
+			else
+			{
+				jQuery("#try-again").show();
+				a.pauseGame();
+				clearInterval(intervaltimer);
+				document.getElementById("my_canvas").innerHTML = "";
+				total_score = last_score_before_try_again;
+			}
+
+
+
+		}
+		counter--;
+		//console.log(counter);
+	}, 1000);
+}
+
+function tryagain()
+{
+		console.log("tryagain")
+		totalhits = 0;
+		//alert("level 2");
+		document.getElementById("my_canvas").innerHTML = "";
+		document.getElementById("score-count").innerHTML = last_score_before_try_again;
+		clearInterval(a.intervalId);
+		a.initGame();
+
+		if(currentRound == 1)
+		{
+			jQuery("#footer").show();
+			a.updateTime = 50;
+		}
+		else if(currentRound == 2)
+		{
+			a.updateTime = 30;
+		}
+		else if(currentRound == 3)
+		{
+			a.updateTime = 20;
+		}
+		a.startGame();
+
+		timer();
+		jQuery("#try-again").hide();
+}
+
+</script>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '220874861594495', //'600570460122802', //'220874861594495',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+
+   function shareFB() {
+
+
+	var rand1 = Math.floor((Math.random() * 9000) + 1);
+	  FB.ui({
+		method: 'share',
+		display: 'popup',
+		href: "http://fbapps.ae/mfc/en/games/paint-your-story/?game=<?php echo time(); ?>"+rand1,
+		picture: "http://fbapps.ae/mfc/game-demo/balloons/images/baloon-share-img.jpg?id="+rand1,
+        title: "Pop the Balloons",
+        description: "I burst "+total_score+" balloon in Pop the Balloons game of MyFutureChampion.com",
+        caption: "My FutureChampion Academy - Pop the Balloons",
+
+	  }, function(response){});
+
+
+}
+</script>
+</head>
+
+<body style="cursor:url(images/brush_green.png)">
+<!--<div id="scoreanim" style="display:none; position:absolute; font-size:40px; z-index: 99993;">+1</div>-->
+<div id="scoreanim1" style="display:none; position:absolute; font-size:40px; z-index: 9999;">+1</div>
+<div id="scoreanim2" style="display:none; position:absolute; font-size:40px; z-index: 9999;">+1</div>
+<div id="scoreanim3" style="display:none; position:absolute; font-size:40px; z-index: 9999;">+1</div>
+<audio id="myAudio1">
+  <source src="sounds/pop.ogg" type="audio/ogg">
+  <source src="sounds/pop.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio2">
+  <source src="sounds/welldone.ogg" type="audio/ogg">
+  <source src="sounds/welldone.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio3">
+  <source src="sounds/level3.ogg" type="audio/ogg">
+  <source src="sounds/level3.mp3" type="audio/mpeg">
+</audio>
+<div>
+<div style="display:none;" id="my_canvas" class="paused " >
+    </div>
+    <div class="baloon-logo hidemob"><img src="images/baloon-logo.png" width="404" height="248" alt=""></div>
+
+    <div id="score-label" style="display:none">
+     <div class="game-score"><span id="score-count">0</span></div>
+     <div class="game-score-txt">Score</div>
+
+    </div>
+	<div id="timer-label" style="display:none">
+     <div class="game-score time-score"><span id="timer-count">0</span></div>
+     <div class="game-score-txt">Time</div>
+
+    </div>
+    <!--<div id="start-btn">
+	Round #1 -- <br> Pop 5 balloons <br>
+      <span>play now</span>
+    </div>-->
+    <div id="pause-btn">
+    </div>
+
+
+
+  </div>
+ <div class="fullscreen"><a href="javascript:void(0);"><img id="change-screen" src="images/full-screen.png" width="70" height="70" /></a></div>
+
+  <div id="airplane"></div>
+  <div id="heli" class="hidemob"></div>
+  <div id="heat-baloon"></div>
+
+
+  <div id="landing-page-bg"></div>
+
+     <div class="game-content" id="game-area">
+      <!--Round 1-->
+       <div id="level-1">
+            <div class="game-level"><img src="images/level-1.png" width="233" height="513" alt=""></div>
+            <h2>Pop As many <br />balloons as you <br />can in </h2>
+            <div class="second">30 Seconds</div>
+            <div class="btn-default" id="start-btn"><a href="javascript:" >Start</a></div>
+       </div>
+
+      <!--Round 2-->
+       <div id="round2"  class="messagediv">
+            <div class="game-level"><img src="images/level-2.png" width="233" height="513" alt=""></div>
+            <h2>Pop as many<span style="color:#f15362"> red</span> <br> balloons as you <br />can in </h2>
+            <div class="second">30 Seconds</div>
+            <div class="btn-default"><a href="#" onclick="round(2)">Continue to level 2</a></div>
+       </div>
+
+      <!--Round 3-->
+       <div id="round3"  class="messagediv">
+       <div class="game-level"><img src="images/level-3.png" width="233" height="513" alt=""></div>
+
+            <h2>Pop as many<span style="color:#9ecf66"> green</span> <br> balloons as you <br />can in </h2>
+            <div class="second">30 Seconds</div>
+            <div class="btn-default"><a href="#" onclick="round(3)">Continue  to level 3</a></div>
+       </div>
+
+
+
+     <!--Try again-->
+       <div id="try-again" class="messagediv">
+       <div class="sorry-div">
+        <h2>Oops!</h2>
+        <h3>You have run out of time</h3>
+        <div class="btn-default try-again" ><a href="#" onclick="tryagain()">Try Again</a></div>
+        </h2>
+        </div>
+
+
+        <!--<h2><span class="second">Sorry</span></br> you ran out of time</h2>
+        <div class="btn-default try-again" ><a href="#" onclick="tryagain()">Try Again</a></div>-->
+
+        </div>
+
+     </div>
+ 	<div class="game-content" id="success-game">
+     <!--Success-->
+       <div id="success"  class="messagediv" style="z-index:9999">
+        <div class="congrat-baloon"><img src="images/congratulation-baloon.png" alt=""></div>
+        <div class="congrats">
+
+        Congratulations</div>
+        <p>you have successfully completed all levels </p>
+        <div class="your-score"><span id="final_score">64</span></div>
+        <div class="your-score-txt">Your Score</div>
+        <div class="btn-default"><a href="javascript:" onclick="round(1)">Play Again</a></div>
+      </div>
+
+     </div>
+
+		<div class="game-logo" style="display:none;"><img src="images/inner-logo-game.png" alt=""></div>
+
+ <div id="footer">
+ 	<div id="bottom-cloud-1"></div>
+ 	<div id="bottom-cloud-2"></div>
+ 	<div id="bottom-cloud-3"></div>
+    <div class="social-link"  style="display:none">
+    <div class="share-txt">Share with friends</div>
+<div class="social_btn"><img onclick="shareFB()" src="images/fb.png" width="39" height="42" alt=""></div>
+<div class="social_btn"><a target="_blank" href="https://twitter.com/intent/tweet?text=Play Pop the Balloons game at myfuturechampion.com/en/games!"><img src="images/twitter.png" width="39" height="42" alt=""></a></div>
+</div>
+    <div class="lang-btn" >
+		<div class="inner-logo"><img src="images/inner-logo.png"  width="275" height="181" alt=""></div>
+ 	</div>
+
+ </div>
+
+<script src="js/intro.js"></script>
+</body>
+</html>
