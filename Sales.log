@@ -1,0 +1,1538 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, February 21, 2018 6:51:06 AM
+   Source : \\192.168.8.99\h$\Sales\
+     Dest : D:\192.168.8.99\h\Sales\
+
+    Files : *.*
+	    
+  Options : *.* /V /S /E /COPYALL /PURGE /MIR /NP /ETA /R:0 /W:0 
+
+------------------------------------------------------------------------------
+
+	                  16	\\192.168.8.99\h$\Sales\
+	          same		   10116	APA AFYA NAFUU.docx
+	          same		  106654	BUTALI LATEST.xlsx
+	          same		   74752	Copy of T.O.B-local.xls
+	          same		  394752	LIFECARE INTERNATIONAL PROFILE.02.doc
+	          same		   24576	premcomp.02.xls
+	          same		   13358	Rich(2).docx
+	          same		   15091	Richest kenyans(2).docx
+	          same		   15123	Sales Activity - 09 May 2012(1).xlsx
+	          same		   70144	T.O.B LOCAL.xls
+	          same		   71168	T.O.B-local.xls
+	          same		     162	~$chest kenyans(2).docx
+	          same		     165	~$closed sales January(1)(1).xlsx
+	          same		     165	~$closed sales January.xlsx
+	          same		     162	~$FECARE INTERNATIONAL PROFILE.02.doc
+	          same		     162	~$ich(2).docx
+	          same		     165	~$NEW SALES -SALES TEAM.xlsx
+	                   0	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\
+	                   1	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\
+	          same		   15429	PIPELINE.xlsx
+	                   0	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2011-ACTIVITIES\
+	                   2	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2011-ACTIVITIES\DECEMBER\
+	          same		   11532	1st week dec.xlsx
+	          same		   11964	Copy of 2nd week dec.xlsx
+	                   4	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2011-ACTIVITIES\NOVEMBER\
+	          same		   13892	2ND WEEK NOV.xlsx
+	          same		   14248	3RD WEEK NOV.xlsx
+	          same		   12619	4WEEK NOV.xlsx
+	          same		   12562	NOV ACTIVITIES.xlsx
+	                   1	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2011-ACTIVITIES\OCTOBER\
+	          same		   25410	OCTOBER ACTIVITIES.xlsx
+	                   2	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\
+	          same		   14473	pipeline.xlsx
+	          same		   46592	Sales Activity - 12 March 2012.xls
+	                   5	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\april\
+	          same		   17022	2nd week.xlsx
+	          same		   14285	3rd week.xlsx
+	          same		   16500	4th week - April(3)(1).xlsx
+	          same		   42496	activities 1st week April.xls
+	          same		     165	~$3rd week activiies.xlsx
+	                   4	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\AUGUST\
+	          same		   12724	1st week -AUG.xlsx
+	          same		   13368	2nd week-Aug.xlsx
+	          same		   13946	3rd Week.xlsx
+	          same		   13161	Sales Activity - 1st week Aug 2012(1)(1).xlsx
+	                   4	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\feb\
+	          same		   12548	1st week feb.xlsx
+	          same		   11819	2nd week feb.xlsx
+	          same		   14892	4week FEB Activity.xlsx
+	          same		   14476	Copy of 3rd week feb(1).xlsx
+	                   3	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\jan\
+	          same		   14112	2ND WEEK JAN(1).xlsx
+	          same		   11818	4 week january.xlsx
+	          same		   14014	jan all acivities.xlsx
+	                   8	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\JULY\
+	          same		   13454	1st week.xlsx
+	          same		   14308	2nd week.xlsx
+	          same		   13838	2nd week54.xlsx
+	          same		   14817	3rd Week.xlsx
+	          same		   13801	4th Weeks.xlsx
+	          same		     165	~$1st week.xlsx
+	          same		     165	~$2nd week.xlsx
+	          same		     165	~$2nd week54.xlsx
+	                   7	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\june\
+	          same		   14329	1st week june.xlsx
+	          same		   13835	2nd week june.xlsx
+	          same		   14656	3rd week june(1).xlsx
+	          same		   14987	4th week.xlsx
+	          same		     165	~$3rd week june(1).xlsx
+	          same		     165	~$3rd week june.xlsx
+	          same		     165	~$4th week.xlsx
+	                   5	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\march\
+	          same		   70656	1ST WEEK MARCH.xls
+	          same		   44544	3rd week March.xls
+	          same		   41472	4 Week March-Activities.xls
+	          same		   46592	Copy of 2ND WEEK MARCH(1).xls
+	          same		   34816	last week acivity-March.xls
+	                   6	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\May\
+	          same		   13504	14-26 May.xlsx
+	          same		   14258	1st week May.xlsx
+	          same		   14107	2ND WEEK.xlsx
+	          same		   13527	4 th week.xlsx
+	          same		   15122	Sales Activity - 09 May 2012(1)(2).xlsx
+	          same		   12917	Sales Activity - 09 May 2012.xlsx
+	                   4	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\October\
+	          same		   10620	1st week -October.xlsx
+	          same		   11157	2nd  week -October.xlsx
+	          same		   12845	3rd week -October.xlsx
+	          same		     165	~$1st week -October.xlsx
+	                   3	\\192.168.8.99\h$\Sales\ACTIVITIES SHEET\ACTIVITIES OUTLINE\2012-ACTIVITIES\September\
+	          same		   12195	1st week -September.xlsx
+	          same		   12999	2nd week -September.xlsx
+	          same		   12758	3rd week-September.xlsx
+	                   2	\\192.168.8.99\h$\Sales\Aetna -UK residents\
+	          same		   1.1 m	NF IHP-Individual-Rates-USD - (1).pdf
+	          same		   18432	Thumbs.db
+	                  18	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\
+	          same		   13115	Amyn Follow ups-1st week march.docx
+	          same		  301277	Bipinchandra-IPMI.pdf
+	          same		   29280	Closed Sales -Amyn.xlsx
+	          same		   13557	CONTACTS NUMBER-BUSINESS CARDS.xlsx
+	          same		   47616	Copy of Dormans- -analysis.xls
+	          same		  441344	Ebrahim Moledina.xls
+	          same		   45728	Fareen Haji.xlsx
+	          same		  189952	Gagan Gharial.xls
+	          same		  148480	Gulshan Karmali.xls
+	          same		  104960	Highchem Re-analysis.xls
+	          same		   45303	Irfan Kassam.xlsx
+	          same		   88560	KAM-DR LETTER
+	          same		  734855	KAM.pdf
+	          same		   20480	Prospective clients 4th Week February.xls
+	          same		  135680	Terje Holme.xls
+	          same		   20992	weekly activities 11th February 2012.xls
+	          same		    9735	weekly activities.xlsx
+	          same		   4.7 m	Worldwide Travel options.pdf
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\Chatur\
+	          same		  231665	Tusker Matresses -IPMI.pdf
+	          same		  326156	Tusker Mattressses-LPMI.pdf
+	          same		  144492	vital chatur-Vital.pdf
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\
+	          same		  199039	EHP Policy Wording(1)(1)(1).pdf
+	                   4	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\benefits comparison Aetna & Bupa\
+	          same		  662531	company-gold-membership-pack(1).pdf
+	          same		  668077	company-gold-superior-membership-pack(1).pdf
+	          same		   52385	Corp-Gold+Aetna(1).pdf
+	          same		   77160	JAVA BUPA CORP QTE(1).pdf
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\EAGC\
+	          same		   40448	EAGC-ANALYSIS.xls
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\EAGC\APA\
+	          same		   82132	EASTERN AFRICA GRAIN COUNCIL- Lifecare Intl Ins. Brokers.pdf
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\EAGC\Britam\
+	          same		  223744	EAGC- 2012.xls
+	          same		  181760	EAGCC - 2012.doc
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\EAGC\GA Insurance\
+	          same		   38400	EAGC STAFF MEDICAL SCHEME(1).xls
+	          same		   40480	EAGC STAFF.pdf
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\EAGC\JUBILEE\
+	          same		   37161	EAGC-SME JUBILEE 27-9-2012.pdf
+	          same		   25088	EAGC-SME JUBILEE 27-9-2012.xls
+	          same		   91648	Eastern Africa Grain Council  (Lifecare Int) 27-09-2012(1).doc
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\EAGC\RHEA\
+	          same		  296448	East African Grain Council.doc
+	          same		  209408	East African Grain Council.xls
+	          same		  524723	RHEAL Medical Services Providers March2012(16).pdf
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\ECO BANK\
+	          same		   65536	ECO BANK.xls
+	          same		  423936	Ecobank Medical Cover List as at 20th September 2012.xls
+	          same		   38400	T.O.B LOCAL-ECO BANK.xls
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\ECO BANK\APA\
+	          same		   95776	ECO BANK  - Life Care Insurance Brokers(1).pdf
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\ECO BANK\Britam\
+	          same		  157184	Ecobank -  2012.xls
+	          same		  182272	Ecobank - 2012.doc
+	                   0	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\ECO BANK\Jubilee\
+	                   5	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\GALILEO\
+	          same		   71168	GALILEO ANALYSIS.xls
+	          same		  121856	Galilleo Staff(1).xls
+	          same		   11327	Megascope Employees (2)(1)(1).xlsx
+	          same		   52224	STAFF LIST -GALLILEO--10-2012(1).xls
+	          same		   36864	T.O.B LOCAL-GALILEO.xls
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\GALILEO\GA Insurance\
+	          same		  216262	gallileo.pdf
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\GALILEO\Jubilee\
+	          same		   83456	Gallileo (Lifecare Int)  12-10-2012.doc
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\GALILEO\RHEA\
+	          same		  289792	Galilleo Staff(1).doc
+	          same		  524723	RHEAL Medical Services Providers March2012(25).pdf
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\Megascope\
+	          same		   12197	Megascope Employees (2)(1).xlsx
+	          same		   37888	MEGASCOPE- ANALSYS.xls
+	          same		   38912	T.O.B LOCAL.xls
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\Megascope\GA\
+	          same		   74606	MEGASCOPE.pdf
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\Megascope\Jubilee\
+	          same		   94208	Megascope (Lifecare Int)  18-10-2012(1).doc
+	                   4	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\Megascope\RHEA\
+	          same		  293376	Mega Scope(1)(1).doc
+	          same		   28558	Mega scope(1)(1).xlsx
+	          same		  293376	Mega Scope.doc
+	          same		   28558	Mega scope.xlsx
+	                   6	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\OPG -2012 rates\
+	          same		   40977	OPG Premiums  Corp - Africa Plan 2012(1).pdf
+	          same		   36936	OPG Premiums  Indiv- Africa Plan 2012(1).pdf
+	          same		   43274	OPG Premiums Corp 20+  - WW plan 2012(1).pdf
+	          same		   49342	OPG Premiums Corp 3-19 - WW plan 2012(1).pdf
+	          same		   42371	OPG Premiums Indiv - WW plan 2012(1).pdf
+	          same		   19456	Thumbs.db
+	                  10	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\PRINT EXPRESS\
+	          same		   24576	life health.doc
+	          same		   40977	OPG Premiums  Corp - Africa Plan 2012(1).pdf
+	          same		   36936	OPG Premiums  Indiv- Africa Plan 2012(1).pdf
+	          same		   43274	OPG Premiums Corp 20+  - WW plan 2012(1).pdf
+	          same		   49342	OPG Premiums Corp 3-19 - WW plan 2012(1).pdf
+	          same		   42371	OPG Premiums Indiv - WW plan 2012(1).pdf
+	          same		   72192	PRINT XPRESS Contract Schedule 2012.doc
+	          same		  199168	PRINT XPRESS INV2012.xls
+	          same		  190976	PRINT XPRESS MEDICAL CONTRACT 2012.doc
+	          same		   19456	Thumbs.db
+	                   4	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\RODMAN CONSTRUCTION\
+	          same		  166912	RODMAN CONSTRUCTION- LPMI 25-10-2012.xls
+	          same		   28160	RODMAN- ANALYSIS.xls
+	          same		  285269	RODMAN- IPMI 25-10-2012.pdf
+	          same		  113796	RODMAN- IPMI 25-10-2012.xlsx
+	                   5	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\RODMAN CONSTRUCTION\RHEA\
+	          same		  299976	Resolution Health Individual product guide 2012.pdf
+	          same		  524723	RHEAL Medical Services Providers March2012(28).pdf
+	          same		   46583	Rodman.xlsx
+	          same		   33792	Thumbs.db
+	          same		     165	~$Rodman.xlsx
+	                  12	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\STB TENDER DOC\
+	          same		  402944	Anti Bribery & GIft Entertainment.doc
+	          same		   12113	BENEFIT COMPARISON.xlsx
+	          same		  625193	Employee Handbook Lifecare ver-01.pdf
+	          same		   90962	GA.zip
+	          same		   29184	Health and safety Policy -Lifecare.doc
+	          same		  764928	LIFECARE PRESENTATION SCB.ppt
+	          same		   34304	Lifecare-List of Clientelle and Profile for SCB.doc
+	          same		  477898	Professional indemnity0001.pdf
+	          same		  408523	Professional indemnity0001.zip
+	          same		  567296	RFP - Health Management Services(4)(1).doc
+	          same		  361081	SCB(1).pdf
+	          same		   64000	SCB-ANALYSIS.xls
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\STB TENDER DOC\GA\
+	          same		   37762	Standard Chartered Bank - GA INSURANCE 04-10-2012.pdf
+	          same		   30208	Standard Chartered Bank GA INSURANCE 04-10-2012.xls
+	          same		   18944	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\STB TENDER DOC\JIC\
+	          same		  252928	Standard Chartered Bank - 2013 Tender(Lifecare).doc
+	                   0	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\STB TENDER DOC\RHEA\
+	                   5	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\SWEDISH SCHOOL\
+	          same		  524723	RHEAL Medical Services Providers March2012(23).pdf
+	          same		  301056	Swedish School Staff.doc
+	          same		   30448	Swedish School Staff.xlsx
+	          same		  203398	Swedish School(2)- IPMI 22-10-2012.pdf
+	          same		   69120	T.O.B LOCAL.xls
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\TETRAPAK\
+	          same		   41984	T.O.B-local TETRAPAK.xls
+	          same		   35328	TETRAPAK ANALSYS.xls
+	          same		   10270	TETRAPARK STAFF SUMMARY.xlsx
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\TETRAPAK\GA insurance\
+	          same		    4872	1(8).png
+	          same		   37704	TETRAPARK(1).pdf
+	          same		   30720	TETRAPARK(1).xls
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\TETRAPAK\Jubilee\
+	          same		   93184	Tetrapak (Lifecare International)  28-09-2012.doc
+	                   4	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\TETRAPAK\RHEA-5M\
+	          same		  524723	RHEAL Medical Services Providers March2012(19).pdf
+	          same		  524723	RHEAL Medical Services Providers March2012(21).pdf
+	          same		  113516	Tetra pack(1).docx
+	          same		   52315	Tetrapak(1).xlsx
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\CORPORATE QUOTATION -2012\TETRAPAK\RHEA-8M & 5M\
+	          same		  114916	Tetra Pak.docx
+	          same		  114688	Tetra Pak.xls
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\EAGC\
+	          same		   37376	EAGC-ANALYSIS.xls
+	          same		   73728	T.O.B LOCAL.xls
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\EAGC\APA\
+	          same		   82132	EASTERN AFRICA GRAIN COUNCIL- Lifecare Intl Ins. Brokers.pdf
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\EAGC\Britam\
+	          same		  223744	EAGC- 2012.xls
+	          same		  181760	EAGCC - 2012.doc
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\EAGC\GA Insurance\
+	          same		   38400	EAGC STAFF MEDICAL SCHEME(1).xls
+	          same		   40480	EAGC STAFF.pdf
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\EAGC\JUBILEE\
+	          same		   37161	EAGC-SME JUBILEE 27-9-2012.pdf
+	          same		   25088	EAGC-SME JUBILEE 27-9-2012.xls
+	          same		   91648	Eastern Africa Grain Council  (Lifecare Int) 27-09-2012(1).doc
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\EAGC\RHEA\
+	          same		  296448	East African Grain Council.doc
+	          same		  209408	East African Grain Council.xls
+	          same		  524723	RHEAL Medical Services Providers March2012(16).pdf
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\GA\
+	          same		  163328	Copy of Latest G.GA providers + refferal doctors (updated March 2011).xls
+	                   6	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\JAVA\
+	          same		   48128	e-mail -Java proposal 2012.doc
+	          same		  148981	JAVA  2012 PREMIUM COMPARISON PER FAMILY RATES APA GA BRITAK JUB.pdf
+	          same		  149566	JAVA  2012 PREMIUM COMPARISON PER INDIVIDUAL RATES APA GA BRITAK JUB.pdf
+	          same		   27136	Java RHEAL evaluation summary.doc
+	          same		   58329	NAIROBI JAVA  BENEFIT COMPARISON updated   2012 USE THIS.pdf
+	          same		   27648	Thumbs.db
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\PSC 2012\
+	          same		   62546	Avenue Healthcare's Proposal - Parklands Sports Club 2012.pdf
+	          same		   56320	PARKLANDS SPORTS D2 LATEST(1).xls
+	          same		   28672	PSC MGT INSURANCE DETAILS.xls
+	                   4	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\QUOTATION TEMPLATES\
+	          same		  121344	IHI.xls
+	          same		  240128	LPMI.xls
+	          same		  439296	Quotation - Int.xls
+	          same		  138240	Vital Africa Corporate Plan.xls
+	                   0	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\AETNA\
+	          same		  275968	2012 EHS quote engine(3)(1).xls
+	                   2	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\APA\
+	          same		  223786	AFYA NAFUU.pdf
+	          same		  194401	JAMII PLUS(4).pdf
+	                   9	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\BUPA\
+	          same		 1027379	bwho-subscription-tables-eur-2012.pdf
+	          same		 1007682	bwho-subscription-tables-gbp-2012.pdf
+	          same		 1004310	bwho-subscription-tables-usd-2012.pdf
+	          same		   1.0 m	company-10-plus-october-2012.pdf
+	          same		  601060	company-3-9-october-2012.pdf
+	          same		   1.0 m	lifeline-subscription-tables-eur-october-2012.pdf
+	          same		   1.0 m	lifeline-subscription-tables-gbp-october-2012.pdf
+	          same		   1.0 m	lifeline-subscription-tables-usd-october-2012.pdf
+	          same		   19312	Vital Rates (valued).xlsm
+	                   3	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\General  Accident\
+	          same		  185532	INDIVIDUAL RATES(2).pdf
+	          same		   33092	New Individual Health Ins. Rates 28112011(1).pdf
+	          same		    8704	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\JUBILEE\
+	          same		   27116	JCARE 2012 RATES.pdf
+	                   6	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\optimum global rates\
+	          same		   40977	OPG Premiums  Corp - Africa Plan 2012(1).pdf
+	          same		   36936	OPG Premiums  Indiv- Africa Plan 2012(1).pdf
+	          same		   43274	OPG Premiums Corp 20+  - WW plan 2012(1).pdf
+	          same		   49342	OPG Premiums Corp 3-19 - WW plan 2012(1).pdf
+	          same		   42371	OPG Premiums Indiv - WW plan 2012(1).pdf
+	          same		   19456	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\AMYN Sales dropezone\rates\RHEA\
+	          same		   1.5 m	Resolution Health Product Guide Jan 2012(1).pdf
+	                   4	\\192.168.8.99\h$\Sales\Avenue Revised Rates-2012\
+	          same		  665546	Avenue Healthcare Corporate Medical Scheme Rates - Jan 2013.pdf
+	          same		   48854	Avenue Hospital Maternity Packages - 2013.pdf
+	          same		  529856	Avenue Hospital Rates - Jan 2013.pdf
+	          same		   16896	Thumbs.db
+	                   3	\\192.168.8.99\h$\Sales\CAROLINE\
+	          same		    9968	activity sheet format.xlsx
+	          same		   17272	caroline.xlsx
+	          same		   35328	Weekly Activity Sheet.xls
+	                  12	\\192.168.8.99\h$\Sales\CAROLINE\IPMI Quotations\
+	          same		  204409	Eric Otieno - Quote.pdf
+	          same		  142336	Miss Diana Murimi BUPA Quotation.xls
+	          same		  199164	Mr Gitau Muriithi - Quote.pdf
+	          same		  145920	Mr Kanti Sanghani IPMI Quote.xls
+	          same		  202886	Mr Muchai Kunyiha.pdf
+	          same		   81011	Mrs Angeline - Corporate Quote.pdf
+	          same		   81424	Mrs Angeline Limo.pdf
+	          same		  203867	Mrs Caroline Kariuki.pdf
+	          same		  194067	Ms Edith Mbui Quote.pdf
+	          same		   80136	Quotation - Int Deepika.pdf
+	          same		  197142	Said Bakhresa Quote.pdf
+	          same		  409088	Sue Evans IPMI Quotation.xls
+	                  11	\\192.168.8.99\h$\Sales\CAROLINE\LPMI Quotations\
+	          same		  144521	Alpesh Patel.pdf
+	          same		   77442	Carol Ngugi JCARE QUOTE 2.pdf
+	          same		   78383	CJ Owade JCARE QUOTE 2.pdf
+	          same		  223229	Deepika Mahindro Quote.pdf
+	          same		  153511	Edith Mbui.pdf
+	          same		  214806	Hafsa Sroya Quotations.pdf
+	          same		   81424	Mrs Angeline Limo.pdf
+	          same		  194067	Ms Edith Mbui Quote.pdf
+	          same		   92407	Pranav Quote.pdf
+	          same		  153845	Sue Karimi.pdf
+	          same		   78848	Uniserve  Education JCARE QUOTATION.doc
+	                  15	\\192.168.8.99\h$\Sales\CEO Report\
+	          same		   50688	CEO ERPORT SEPTEMBER.xls
+	          same		   51200	CEO REPORT JAN.xls
+	          same		   83968	CEO REPORT MARCH-2012.xls
+	          same		   53760	CEO REPORT NOVEMBER-revised.xls
+	          same		   74240	CEO REPORT-APRIL 2012.xls
+	          same		   74240	CEO REPORT-JUNE.xls
+	          same		   74240	CEO REPORT-MAY.xls
+	          same		   61440	CEO REPORT-OCTOBER 2012.xls
+	          same		   76288	CEO REPORT-SEPTEMBER 2012.xls
+	          same		   76288	CEP REPORT- AUGUST 2012.xls
+	          same		   74240	CEP REPORT-JULY.xls
+	          same		   50176	Copy of CEO REPORT DECEMBER.xls
+	          same		   52224	Copy of CEO REPORT FEB 2012(1).xls
+	          same		   52224	Copy of OCTOBER  CEO REPORT-revised.xls
+	          same		   49152	Sales Report R205,R301 & R302 -Amyn Khan August 2011(5).xls
+	                   4	\\192.168.8.99\h$\Sales\Fliers\
+	          same		  305090	0000_LC_Info_Health_KENYA.pdf
+	          same		  299372	0000_LC_Info_Travel_KENYA.pdf
+	          same		  272001	0000_LC_Info_WIL_KENYA.pdf
+	          same		   68096	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\GOLFHEALTHY U\
+	          same		   30261	GOLF & HEALTHY U.xlsx
+	          same		     165	~$GOLF & HEALTHY U.xlsx
+	                   9	\\192.168.8.99\h$\Sales\Lead Generating Sheet\
+	          same		   24862	AUGUST.xlsx
+	          same		   24646	DECEMBER.xlsx
+	          same		   24670	JULY.xlsx
+	          same		   24954	JUNE.xlsx
+	          same		   25182	MAY.xlsx
+	          same		   20835	Nairobi Phone Leads - MAY.xlsx
+	          same		   24646	NOVEMBER.xlsx
+	          same		   24646	OCTOBER.xlsx
+	          same		   24646	SEPTEMBER.xlsx
+	                   0	\\192.168.8.99\h$\Sales\Leads\
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\
+	          same		   13395	activity sheet format.xlsx
+	          same		   15514	Call log.xlsx
+	          same		   82944	Chatur Group (Life Care Int) 28-08-2012.doc
+	          same		   71168	Done for freight forwarders local quote. 050511(2).xls
+	          same		  11.7 m	Pipeline.xlsx
+	          same		  11.6 m	Pipeline1.xlsx
+	          same		     165	~$Pipeline.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Ambenje\
+	          same		  133962	Ambenje.pdf
+	          same		  136704	Ambenje.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\April\Benjamin Nzuki\
+	          same		   74659	Benjamin.pdf
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Birgi\
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\April\Carolie Hough\
+	          same		  193773	Caroline.pdf
+	          same		   75375	Quotation - Int.pdf
+	          same		  129024	Quotation - Int.xls
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\April\Dhanjal\
+	          same		  153588	Dhanjal.pdf
+	          same		  180736	Dhanjal.xls
+	          same		   80636	Ms. Randeep.pdf
+	          same		  147456	Ms. Randeep.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Dr Bernard Onkundi Otundo\
+	          same		  128426	Dr Bernard Onkundi Otundo.pdf
+	          same		   83803	Dr Bernard Onkundi Otundo.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Eunah\
+	          same		  138659	Eunah.pdf
+	          same		  100498	Eunah.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Guebels Thiery\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Guran Singh\
+	          same		   79558	Guran Singh.pdf
+	          same		  138240	Guran Singh.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\April\IH\
+	          same		  134144	Idris.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Isaiah\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\JACQUIE\
+	          same		  145870	Jacquie.pdf
+	          same		  185856	Jacquie.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Jairus\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\James Mwangi\
+	          same		  141316	James Mwangi.pdf
+	          same		   97550	James Mwangi.xlsx
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\April\Josephine\
+	          same		   80026	Josephine.pdf
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Joshua\
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\JUDITH\
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Julius Ochieng\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Lilian Mwangi\
+	          same		  163312	Lilian Mwangi.pdf
+	          same		  174080	Lilian Mwangi.xls
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\April\Lindsay Duncan\
+	          same		  142293	Lindsay Duncan.pdf
+	          same		  102404	Lindsay Duncan.xlsx
+	          same		   71412	Mr. Duncan AAR.pdf
+	          same		  131072	Mr. Duncan AAR.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\merina\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Michael Jemea Mokate\
+	          same		   79374	Michael Mokate.pdf
+	          same		  140288	Michael Mokate.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Murtazaali Gulamali\
+	          same		   69754	Murtazaali.pdf
+	          same		   39083	Murtazaali.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\New Folder (3)\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Niku\
+	          same		  143047	Niku.pdf
+	          same		   97505	Niku.xlsx
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\April\Norren\
+	          same		   78779	Bupa Essential quaterly.pdf
+	          same		   48874	Bupa Essential quaterly.xlsx
+	          same		  138896	Noreen Dean.pdf
+	          same		   87548	Noreen Dean.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Paul\
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Paul Asura\
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\April\Pransb\
+	          same		   74757	Prans.pdf
+	          same		  137728	Prans.xls
+	          same		   79540	Pransb.pdf
+	          same		  137216	Pransb.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\Raphael\
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\April\steve\
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\April\Young\
+	          same		  267523	Young.pdf
+	          same		  245760	Young.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\August\
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\August\Beatrice\
+	          same		  260122	beatrice yugi.pdf
+	          same		  408576	beatrice yugi.xls
+	          same		    5632	Thumbs.db
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\August\David Moyer\
+	          same		   50118	David Moyer Aetna.pdf
+	          same		   58820	David Moyer Aetna.xlsx
+	          same		  149152	David Moyer.pdf
+	          same		   58734	David Moyer.xlsx
+	          same		    9728	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\August\Ebrahim Moledina\
+	          same		  441344	Ebrahim Moledina.xls
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\August\Edna\
+	          same		  269417	Edna Kimurwa.pdf
+	          same		  412160	Edna Kimurwa.xls
+	          same		   59270	Edna Simplified II.pdf
+	          same		   59434	Edna Simplified.pdf
+	          same		   52845	Edna Simplified.xlsx
+	          same		    9728	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\August\Irfan Kassam\
+	          same		   45554	Irfan Kassam.xlsx
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\August\Jadiel\
+	          same		  248320	Jadiel.xls
+	                  15	\\192.168.8.99\h$\Sales\PHARIS\August\Joseph\
+	          same		   74752	comparison INT.xls
+	          same		  150528	Esther Wanjiku.xls
+	          same		   24858	INDV- ESSEN.0809 - amended.pdf
+	          same		   90112	INDV- ESSEN.0809 - amended.xls
+	          same		  102966	Joseph corporate 2.pdf
+	          same		  212023	Joseph corporate I.pdf
+	          same		   61144	Joseph corporate I.xlsx
+	          same		  103693	Joseph corporate.pdf
+	          same		   66049	Joseph corporate.xlsx
+	          same		  150528	Joseph Mwangi.xls
+	          same		   48766	Joseph Simplified.pdf
+	          same		   44715	Joseph Simplified.xlsx
+	          same		   49837	Joseph.pdf
+	          same		   51695	Joseph.xlsx
+	          same		   30208	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\August\Kepsa\
+	          same		   54557	Caroline Kariuki.xlsx
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\August\Lydia Kamau\
+	          same		   47179	Decase Chemicals II.pdf
+	          same		   31263	Decase Chemicals II.xlsx
+	          same		   48475	Decase Chemicals.pdf
+	          same		   33826	Decase Chemicals.xlsx
+	          same		  275086	Local(7).pdf
+	          same		   14336	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\August\Lyma Kadenge\
+	          same		   93589	Lyma Kadenge.pdf
+	          same		   48271	Lyma Kadenge.xlsx
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\August\Morris Kamatakwa\
+	          same		  256000	Jadiel 2.xls
+	          same		  182272	Jadiel.xls
+	          same		  399360	Morris Kamatakwa.xls
+	          same		   61665	Morris Simplified.pdf
+	          same		   47058	Morris Simplified.xlsx
+	          same		  152062	Morris.pdf
+	          same		  168448	Morris.xls
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\August\Muthee\
+	          same		  246190	Mr. Muthee.jpg
+	          same		  246190	Picture 001.jpg
+	          same		    9216	Thumbs.db
+	                  16	\\192.168.8.99\h$\Sales\PHARIS\August\Rita\
+	          same		   5.1 m	Chiraag $8 Bupa Deposit 001.tif
+	          same		  339132	doc20120821143844.pdf
+	          same		  472252	doc20120823110807.pdf
+	          same		  349372	doc20120823113418.pdf
+	          same		   2.0 m	Illa Deposit $59 GA 001.tif
+	          same		  115206	ILLA.pdf
+	          same		   89399	Mr. Chiraag Sudhir Devani GA Shillings.pdf
+	          same		  131584	Mr. Chiraag Sudhir Devani GA Shillings.xls
+	          same		  122959	Mr. Chiraag Sudhir Devani GA.pdf
+	          same		  131584	Mr. Chiraag Sudhir Devani GA.xls
+	          same		   70719	Mr. Chiraag Sudhir Devani II.pdf
+	          same		   70869	Mr. Chiraag Sudhir Devani III.pdf
+	          same		   69252	Mr. Chiraag Sudhir Devani.pdf
+	          same		   85637	Mrs. Illa Sudhir Devani.pdf
+	          same		  110983	Sudhir.pdf
+	          same		   88576	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\August\Rowan Mwende Mwongela\
+	          same		  189952	Copy of Gagan Gharial.xls
+	                  10	\\192.168.8.99\h$\Sales\PHARIS\August\Sarah Surban\
+	          same		   80384	Sarah Surban comparison INT (Autosaved).xls
+	          same		   80384	Sarah Surban comparison INT.xls
+	          same		   53341	Sarah Surban Simplified.pdf
+	          same		   54062	Sarah Surban Simplified.xlsx
+	          same		  140538	Sarah Surban.pdf
+	          same		   86957	Sarah.pdf
+	          same		   74641	Sarah.xlsx
+	          same		   63392	Surban.pdf
+	          same		   53643	Surban.xlsx
+	          same		   15872	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\August\Shabbir Karmali\
+	          same		  268091	Shabbir Karmali.pdf
+	          same		  412160	Shabbir Karmali.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\August\Terje\
+	          same		  135680	beatrice yugi.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\July\
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\July\Janet\
+	          same		   89934	Janet Local.pdf
+	          same		  182272	Janet Local.xls
+	          same		  208299	Janet.pdf
+	          same		  403968	Janet.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\July\Jenifer\
+	          same		   78561	Jenifer INT.pdf
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\July\Josephine Musombi\
+	          same		  150528	Josephine Musombi.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\July\Mansoorali\
+	          same		   64166	Mansoorali Judoha.pdf
+	          same		   53713	Mansoorali Judoha.xlsx
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\July\Mutethia\
+	          same		   79972	BUPA WHO.pdf
+	          same		  130048	BUPA WHO.xls
+	          same		   46266	Green Belt Movement 2012 Lifecare British American.pdf
+	          same		  136130	Mutethia.pdf
+	          same		  136704	Mutethia.xls
+	          same		   15360	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\July\Noreen dean\
+	          same		   77099	Noreen Dean.pdf
+	          same		   48844	Noreen Dean.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\July\Salman Alam\
+	          same		  254069	Salman Alam.pdf
+	          same		  436736	Salman Alam.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\July\Shah\
+	          same		  138499	Shreya Shah.pdf
+	          same		  382464	Shreya Shah.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\July\Shaleen\
+	          same		   83425	Shaleen IHI.pdf
+	          same		  121856	Shaleen IHI.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\July\Virjee\
+	          same		   64246	Zarin Virjee.pdf
+	          same		   55650	Zarin Virjee.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\June\
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\June\Caroline Kariuki\
+	          same		   80877	Caroline Kariuki.pdf
+	          same		  137728	Caroline Kariuki.xls
+	          same		   55931	Caroline.xlsx
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\June\Consolata\
+	          same		  139879	Consolata.pdf
+	          same		  151552	Consolata.xls
+	          same		    9216	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\June\David Kamau\
+	          same		  151859	David.pdf
+	          same		  165888	David.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\June\Dianah\
+	          same		  197623	Dianah.pdf
+	          same		  401920	Dianah.xls
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\June\Jenifer INT\
+	          same		   78864	Jenifer INT.pdf
+	          same		  129536	Jenifer INT.xls
+	          same		  152418	Jenifer Local.pdf
+	          same		  180224	Jenifer Local.xls
+	          same		   14848	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\June\John Kombo\
+	          same		  138333	John kombo.pdf
+	          same		  136704	John kombo.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\June\Kagio\
+	          same		  151868	Kagio.pdf
+	          same		  165376	Kagio.xls
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\June\Mohamederfan Allarakhia\
+	          same		   81574	Mohamederfan Allarakhia.pdf
+	          same		  129536	Mohamederfan Allarakhia.xls
+	          same		  146290	Mohamederfan.pdf
+	          same		  383488	Mohamederfan.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\June\O P Narang\
+	          same		   81475	O.P. Narang.pdf
+	          same		  131072	O.P. Narang.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\June\Rita\
+	          same		   85479	Rita GA.pdf
+	          same		   16384	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\June\Rita\Travel\
+	          same		   15378	KMBT28220120615153453.tif
+	          same		  115210	RITA.pdf
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\LAURYN\
+	          same		   14288	cover -20.1.2014.docx
+	          same		   13237	COVER LETTER 1.docx
+	          same		   39352	COVER LETTER-12.2.2014.pdf
+	          same		   89184	CV.pdf
+	          same		   12379	leave days.xlsx
+	          same		   14291	united insurance.docx
+	          same		  114248	WORD DOCUMENT.rtf
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\March\
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\March\Cheche\
+	          same		   61933	Avenue Healthcare's Proposal - Cheche - Lifecare International.pdf
+	          same		   77312	CHECHE TELECOMMUNICATIONS LTD 2012 LIFE CARE.xls
+	          same		  198144	Cheche Telecommunications Ltd 2012 Lifecare.doc
+	          same		   21880	~gmE002.png
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\March\Dormans\
+	          same		   39475	C Dormans Limited(1).pdf
+	          same		   67072	C Dormans Limited(1).xls
+	          same		  307200	DORMAN GROUP LIMITED(1).doc
+	          same		   60928	Dorman Group Ltd(1).xls
+	          same		   90624	Dormans Limited  (Life Care International) 22-03- 2012.doc
+	          same		  434899	RHEAL Medical Services Providers Oct2011(25)(1).pdf
+	          same		   32768	Thumbs.db
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\March\Hchem\
+	          same		   29052	STAFF & DEPENDANTS LIST 2012(1).xlsx
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\March\Interior Inventors\
+	          same		   61792	Avenue Healthcare's Proposal - Interior Inventors Lifecare.pdf
+	          same		   74752	Interior Evolution 2012 Lifecare(1).xls
+	          same		  196096	Interior Evolution K 2012 Lifecare(1).doc
+	          same		   79471	INTERIOR EVOLUTION.pdf
+	          same		   37376	INTERIOR EVOLUTION.xls
+	          same		   10511	STAFF LIST 2012 Interior.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March\Jamii Bora\
+	          same		   52799	JBBKL Medical(1).docx
+	          same		   57544	JBBL MEDICAL COVER DETAILS 2012 new(1).xlsx
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\March\NPI Africa\
+	          same		   85504	NPI Africa 2012 Lifecare.xls
+	          same		  198144	NPI Africa 2012 Pharis Githiga.doc
+	          same		  152387	NPI Africa International Medical Cover.xlsx
+	          same		   12165	NPI Africa Staff list.xlsx
+	          same		   92704	NPI AFRICA.pdf
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March\Parklands Sports\
+	          same		   91487	PARKLANDS SPORTS CLUB.pdf
+	          same		   30720	PSC MGT INSURANCE DETAILS(1).xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\March C\
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\March C\Ace\
+	          same		   52307	Avenue Healthcare's Pro-forma Invoice - Ace Auto Centre(4).pdf
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\March C\Alfred\
+	          same		  220553	78224_AWS Benefit Schedule Intl (1).pdf
+	          same		  126838	alfred.pdf
+	          same		   85885	Alfred.xlsx
+	          same		   59036	JWS-NQ-05177.pdf
+	          same		  272071	Kevin BUPA.pdf
+	          same		  198792	Kevin BUPA.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Ann\
+	          same		   78976	Ann.pdf
+	          same		  137728	Ann.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Catherine\
+	          same		   64127	Catherine GH.pdf
+	          same		   53118	Catherine GH.xlsx
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\March C\Chris\
+	          same		  133041	chris INT.pdf
+	          same		  152915	Chris.pdf
+	          same		  184320	Chris.xls
+	          same		  104944	chris.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Felix\
+	          same		  147083	Felix.pdf
+	          same		  166400	Felix.xls
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\March C\Gasta\
+	          same		  134935	Gaspard Quaterly.pdf
+	          same		   89946	Gaspard Quaterly.xlsx
+	          same		  272900	Gasta.pdf
+	          same		  190679	Gasta.xlsx
+	          same		   34304	Thumbs.db
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\March C\George broker\
+	          same		  129327	George.pdf
+	          same		  108711	George.xlsx
+	          same		  111808	Kanwal International.xlsx
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\March C\Kanwal\
+	          same		  154458	Kanwal - Local.pdf
+	          same		  166912	Kanwal - Local.xls
+	          same		  211849	Kanwal International.pdf
+	          same		  156404	Kanwal International.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Kristy\
+	          same		  131294	Kristy.pdf
+	          same		  110011	Kristy.xlsx
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\March C\Laure\
+	          same		   62350	Laure II.pdf
+	          same		  107760	Laure II.xlsx
+	          same		   64649	Laure monthly.pdf
+	          same		   67672	Laure.pdf
+	          same		   55136	Laure.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Leylah\
+	          same		  143759	Leylah.pdf
+	          same		  186368	Leylah.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\March C\Marti\
+	          same		  148480	Marti.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Mueni\
+	          same		  144359	Mueni.pdf
+	          same		  167936	Mueni.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\March C\Patel\
+	          same		  130560	Patel.xls
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\March C\Patricia\
+	          same		  110027	Kristy.xlsx
+	          same		  166765	Patricia INTL.pdf
+	          same		  107433	Patricia INTL.xlsx
+	          same		  119566	Patricia Jcare.pdf
+	          same		  148992	Patricia Jcare.xls
+	          same		  165517	Patricia RHEA.pdf
+	          same		  145920	Patricia RHEA.xls
+	                   8	\\192.168.8.99\h$\Sales\PHARIS\March C\Peter\
+	          same		  144318	Francis.pdf
+	          same		  151484	Francis.xlsx
+	          same		  153495	Margaret.pdf
+	          same		  172123	Margaret.xlsx
+	          same		  144266	Peter.pdf
+	          same		  165376	Peterl.xls
+	          same		  141226	Samuel.pdf
+	          same		  158161	Samuel.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Raga\
+	          same		  271371	Raga Nasr.pdf
+	          same		  183187	Raga Nasr.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Rispre\
+	          same		   69882	Malia.pdf
+	          same		  145920	Malia.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Roselyn\
+	          same		  148195	roselyn.pdf
+	          same		  166912	roselyn.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\March C\Sarendar Singh\
+	          same		  137957	Sarendar Singh.pdf
+	          same		   86428	Sarendar Singh.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\May\
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\May\Brooke hse\
+	          same		   61261	Avenue Healthcare's Proposal - Brookhouse - Lifecare(2).pdf
+	          same		   89600	Brook House In-patient Proposal.doc
+	          same		   85504	Brook House OP Proposal.doc
+	          same		   12147	Brook House Premium Computation.xlsx
+	          same		   87553	Provider panel Updated Jan 2012.pdf
+	                  13	\\192.168.8.99\h$\Sales\PHARIS\May\KAM\
+	          same		   24064	23042012.xls
+	          same		  338713	AAR Contract.pdf
+	          same		   48128	AAR Meeting Agenda.doc
+	          same		   49152	AAR Meeting Resolutions.doc
+	          same		   3.5 m	AAR POWER POINT PRESENTATION.ppt
+	          same		   88403	AAR Quotation.xlsx
+	          same		   25088	Appointment Letter.doc
+	          same		  250710	BLUE GOLD BENEFIT TABLES 2012.pdf
+	          same		   17270	COMPLETE AAR LIST.xlsx
+	          same		  298343	Heritage Blue GOLD Benefit Table 2011.pdf
+	          same		  109341	KENYA ASSOCIATION OF MANUFACTURERS-actual12.xlsx
+	          same		   59083	Microsoft Word - AAR Meeting Resolutions.pdf
+	          same		     162	~$pointment Letter.doc
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\May\KIPI\
+	          same		   63016	Avenue Healthcare's Proposal - KIPI - Lifecare.pdf
+	          same		   90624	KIPI In-patient Proposal.doc
+	          same		   13516	KIPI Premium Computation.xlsx
+	          same		   87553	Provider panel Updated Jan 2012(1).pdf
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\May\May\
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\May\May\Gheysa Lopes Nascimento\
+	          same		  142137	Gheysa Lopes Nascimento.pdf
+	          same		  137216	Gheysa Lopes Nascimento.xls
+	          same		  140587	Gheysa Lopes.pdf
+	          same		  384000	Gheysa Lopes.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\May\May\Julia Wanjiru Ngahu\
+	          same		   74857	Julia Wanjiru Ngahu.pdf
+	          same		  136704	Julia Wanjiru Ngahu.xls
+	                  13	\\192.168.8.99\h$\Sales\PHARIS\May\May\Lilian Mwangi\
+	          same		  157197	Lilian BUPA.pdf
+	          same		  138752	Lilian BUPA.xls
+	          same		  152589	Lilian local.pdf
+	          same		  167936	Lilian local.xls
+	          same		  149177	Lilian Mwangi.pdf
+	          same		  138240	Lilian Mwangi.xls
+	          same		  144869	Lilian new local A.pdf
+	          same		  163328	Lilian new local A.xls
+	          same		  156450	Lilian new local B.pdf
+	          same		  179712	Lilian new local B.xls
+	          same		  150414	Lilian new local C.pdf
+	          same		  142848	Lilian new local C.xls
+	          same		  182272	Lilian.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\May\May\Lilian Mwangi\AAR\
+	          same		   23552	Signature Holdings Silver Bronze op roaming sover me op aar100k.xls
+	          same		   23552	silver bronze and cover me benefits.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\May\May\Mita\
+	          same		  261070	Mita.pdf
+	          same		  411648	Mita.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\May\May\Noreen Dean\
+	          same		  118164	Bupa Essential quaterly.pdf
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\May\May\Rita\
+	          same		  135041	Rita GA.pdf
+	          same		  126976	Rita GA.xls
+	          same		   83833	Rita.pdf
+	          same		  135680	Rita.xls
+	          same		   22528	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\May\May\Robert Owino\
+	          same		  152686	Robert Owino.pdf
+	          same		  165376	Robert Owino.xls
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\May\May\Sarah Surban\
+	          same		  140538	Sarah Surban.pdf
+	          same		   86957	Sarah.pdf
+	          same		   71052	Sarah.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Pipeline\
+	          same		  12.7 m	Pipeline Pharis.xlsx
+	          same		     165	~$Pipeline Pharis.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\
+	                  13	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Ace automobile\
+	          same		   24576	Ace analysis.xls
+	          same		  257862	ACE AUTOCENTRE LTD_V1.pdf
+	          same		  289589	Ace Directors.pdf
+	          same		   26624	ACE STAFF-MEDICAL SCHEME.xls
+	          same		   24576	ACE STAFF-MEDICAL SCHEME2.xls
+	          same		   33792	ACE STAFF-MEDICAL SCHEME3.xls
+	          same		  384281	Ace Transfer Letter.pdf
+	          same		   55481	Acer Automobile - Lifecare (3-11-2011).docx
+	          same		   66152	Avenue Healthcare's Proposal - Ace Auto (f) - Lifecare Revised(1).pdf
+	          same		   24576	AXEL ENGINEERING AND MANUFACTURING LIMITED.xls
+	          same		  418945	Axel Transfer Letter.pdf
+	          same		  137728	Edward Mwangi.xls
+	          same		     162	~$er Automobile - Lifecare (3-11-2011).docx
+	                   8	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Ace automobile\Ace Automobiles\
+	          same		  316416	Ace Autocentre Ltd..doc
+	          same		  256512	ACE STAFF-MEDICAL SCHEME(2).xls
+	          same		   67011	Avenue Healthcare's Proposal - Ace Auto - Lifecare International.pdf
+	          same		  138822	Edward Mwangi.pdf
+	          same		  267776	Edward.xls
+	          same		  266240	Mwangi.xls
+	          same		  434899	RHEAL Medical Services Providers Oct2011(1).pdf
+	          same		   24064	transfer.letter- Ace Motors.doc
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Ace automobile\Axel\
+	          same		   66368	Avenue Healthcare's Proposal - Axel Engineering - Lifecare.pdf
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Ace automobile\Blue\
+	          same		  298343	Blue GOLD Benefit Table 2011 (Kenya)(4).pdf
+	          same		  206170	Blue SILVER Benefit Table 2011 (Kenya)(2).pdf
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Ace automobile\Britak\
+	          same		  192512	Ace Auto Centre 2011 Lifecare.doc
+	          same		   37376	Ace Auto Centre 2011 Lifecare.xls
+	          same		  206579	Medical Providers_2011.pdf
+	          same		     162	~$e Auto Centre 2011 Lifecare.doc
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Caroline\
+	          same		   97409	Caroline q.xlsx
+	          same		  116299	Caroline.pdf
+	          same		   97346	Caroline.xlsx
+	          same		     165	~$Caroline.xlsx
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Gulf african bank\
+	          same		  262398	Asad INTL.pdf
+	          same		  195695	Asad INTL.xlsx
+	          same		  310956	Asad Local.pdf
+	          same		  264704	Asad Local.xls
+	          same		  310709	Blue Benefit Tables Kenya 2011.pdf
+	          same		  258200	Gulf African Bank_V1.pdf
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Gulf african bank\Britak\
+	          same		  196608	Gulf Bank 2011 Lifecare.doc
+	          same		  101376	Gulf Bank 2011 Lifecare.xls
+	          same		   21880	~gm3000.png
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Gulf african bank\Resolution health\
+	          same		  304640	GULF AFRICAN BANK.doc
+	          same		  210432	GULF AFRICAN BANK.xls
+	          same		  434899	RHEAL Medical Services Providers Oct2011(10).pdf
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Jayne\
+	          same		   97622	David.pdf
+	          same		   72306	jane.pdf
+	          same		  184885	jane.xlsx
+	          same		  146974	Jayne.pdf
+	          same		  166912	Jayne.xls
+	          same		     165	~$jane.xlsx
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\
+	          same		  237568	Damji local.xls
+	          same		  105103	product-comparison.pdf
+	          same		   98674	Rw.xlsx
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Agengo\
+	          same		  194592	William Okoyo.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Akinyi\
+	          same		  327466	Akinyi.pdf
+	          same		  266752	Akinyi.xls
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Aluda\
+	          same		   77485	Ofuho Aetna.pdf
+	          same		   76075	Ofuho BUPA lifeline.pdf
+	          same		   67918	Ofuho BUPAWHO.pdf
+	          same		   75420	Ofuho Optimum Global.pdf
+	          same		  161709	Ofuho.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\AMR\
+	          same		  289338	MR. AMR.pdf
+	          same		  162549	MR. AMR.xlsx
+	                  12	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Betty\
+	          same		   67284	Betty international.pdf
+	          same		   54827	Betty international.xlsx
+	          same		   80357	Betty local.pdf
+	          same		  247296	Betty local.xls
+	          same		  238116	Betty.pdf
+	          same		  264704	Betty.xls
+	          same		   2.8 m	GA-Individual Medical leaflet FRONT2010.JPG
+	          same		  276126	International.pdf
+	          same		  159125	International.xlsx
+	          same		   1.0 m	lifeline-mem-guide oct 2010.pdf
+	          same		   14848	Thumbs.db
+	          same		   1.4 m	who-membership-guide.pdf
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Caroline\
+	          same		   97409	Caroline q.xlsx
+	          same		  116299	Caroline.pdf
+	          same		   97346	Caroline.xlsx
+	          same		     165	~$Caroline.xlsx
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Catherine\
+	          same		   96896	Catherine Bupa.xlsx
+	          same		   70862	Catherine.xlsx
+	          same		   69790	Kinoti.xlsx
+	                   8	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Chalortte\
+	          same		   66534	Chalortte BWHO Deductible.pdf
+	          same		   49093	Chalortte BWHO Deductible.xlsx
+	          same		   49129	Chalortte BWHO.xlsx
+	          same		   66537	Charlotte Bourke BWHO.pdf
+	          same		   72715	Charlotte Bourke.pdf
+	          same		   72600	Charlotte Lifeline deductible.pdf
+	          same		   52888	Christine Lifeline deductible.xlsx
+	          same		   52883	Christine.xlsx
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Closed\
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Closed\Ace Motors\
+	          same		   76954	Edward Mwangi.pdf
+	          same		  136192	Edward Mwangi.xls
+	          same		   66896	jane.pdf
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Closed\Nick Reiff\
+	          same		  152602	Reiff.pdf
+	          same		  140288	Reiff.xls
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Closed\Nick Reiff\Membership\
+	          same		  899747	pg 1.pdf
+	          same		  550390	Pg 2.pdf
+	          same		  792498	Pg 3.pdf
+	          same		  552310	Pg 4.pdf
+	          same		  676709	Pg 5.pdf
+	          same		  833613	Pg 6.pdf
+	          same		  937687	Pg 7.pdf
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Closed\Ricks\
+	          same		   99589	besh.xlsx
+	          same		  339864	Ricky.pdf
+	          same		  259072	Ricky.xls
+	          same		   24064	Transfer.letter- Beline Griffits.doc
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\
+	                  13	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Ace automobile\
+	          same		   24576	Ace analysis.xls
+	          same		  257862	ACE AUTOCENTRE LTD_V1.pdf
+	          same		  289589	Ace Directors.pdf
+	          same		   26624	ACE STAFF-MEDICAL SCHEME.xls
+	          same		   24576	ACE STAFF-MEDICAL SCHEME2.xls
+	          same		   33792	ACE STAFF-MEDICAL SCHEME3.xls
+	          same		  384281	Ace Transfer Letter.pdf
+	          same		   55481	Acer Automobile - Lifecare (3-11-2011).docx
+	          same		   66152	Avenue Healthcare's Proposal - Ace Auto (f) - Lifecare Revised(1).pdf
+	          same		   24576	AXEL ENGINEERING AND MANUFACTURING LIMITED.xls
+	          same		  418945	Axel Transfer Letter.pdf
+	          same		  137728	Edward Mwangi.xls
+	          same		     162	~$er Automobile - Lifecare (3-11-2011).docx
+	                   9	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Ace automobile\Ace Automobiles\
+	          same		  316416	Ace Autocentre Ltd..doc
+	          same		  256512	ACE STAFF-MEDICAL SCHEME(2).xls
+	          same		   67011	Avenue Healthcare's Proposal - Ace Auto - Lifecare International.pdf
+	          same		   31976	doc20111219163349.pdf
+	          same		  138822	Edward Mwangi.pdf
+	          same		  267776	Edward.xls
+	          same		  266240	Mwangi.xls
+	          same		  434899	RHEAL Medical Services Providers Oct2011(1).pdf
+	          same		   24064	transfer.letter- Ace Motors.doc
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Ace automobile\Axel\
+	          same		   66368	Avenue Healthcare's Proposal - Axel Engineering - Lifecare.pdf
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Ace automobile\Blue\
+	          same		  298343	Blue GOLD Benefit Table 2011 (Kenya)(4).pdf
+	          same		  206170	Blue SILVER Benefit Table 2011 (Kenya)(2).pdf
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Ace automobile\Britak\
+	          same		  192512	Ace Auto Centre 2011 Lifecare.doc
+	          same		   37376	Ace Auto Centre 2011 Lifecare.xls
+	          same		  206579	Medical Providers_2011.pdf
+	          same		     162	~$e Auto Centre 2011 Lifecare.doc
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Bedi\
+	          same		   66787	Avenue Healthcare's Proposal - Bedi Inv - Lifecare International.pdf
+	          same		  306176	BEDI INVESTMENT.doc
+	          same		  212480	BEDI INVESTMENT.xls
+	          same		  257850	Bedi Investments_V1.pdf
+	          same		  298343	Blue GOLD Benefit Table 2011 (Kenya)(7).pdf
+	          same		  206170	Blue SILVER Benefit Table 2011 (Kenya)(5).pdf
+	          same		  434899	RHEAL Medical Services Providers Oct2011(7).pdf
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Catholic Dioses of lordwa\
+	          same		  194048	Catholic Diocese of Lodwar 2012 Lifecare.doc
+	          same		   87552	Catholic Diocese of Lodwar 2012.xls
+	          same		   12204	Medical Cover DOL.xlsx
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Gulf african bank\
+	          same		  262398	Asad INTL.pdf
+	          same		  195695	Asad INTL.xlsx
+	          same		  310956	Asad Local.pdf
+	          same		  264704	Asad Local.xls
+	          same		  310709	Blue Benefit Tables Kenya 2011.pdf
+	          same		  258200	Gulf African Bank_V1.pdf
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Gulf african bank\Britak\
+	          same		  196608	Gulf Bank 2011 Lifecare.doc
+	          same		  101376	Gulf Bank 2011 Lifecare.xls
+	          same		   21880	~gm3000.png
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Gulf african bank\Resolution health\
+	          same		  304640	GULF AFRICAN BANK.doc
+	          same		  210432	GULF AFRICAN BANK.xls
+	          same		  434899	RHEAL Medical Services Providers Oct2011(10).pdf
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Johnson\
+	          same		   45056	Johnson.xls
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Johnson Diversy\
+	          same		   49545	Johnson Diversey 2011 Lifecare Intl.pdf
+	          same		   37553	JOHNSON DIVERSEY.pdf
+	          same		   29184	JOHNSON DIVERSEY.xls
+	                  21	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Kepsa\
+	          same		   23552	Analysis of Quotations KEPSA.xls
+	          same		  298343	Blue GOLD Benefit Table 2011 (Kenya)(6).pdf
+	          same		  206170	Blue SILVER Benefit Table 2011 (Kenya)(4).pdf
+	          same		  122368	jb.doc
+	          same		  135168	KEPSA - 2011.xls
+	          same		  119808	KEPSA - Lifecare( 04-11-2011).j.doc
+	          same		  189952	KEPSA - write up.doc
+	          same		   25088	KEPSA ANALYSIS.xls
+	          same		  126976	KEPSA renewal list 2011(4).xls
+	          same		  104960	KEPSA renewal list 2011(4)r.xls
+	          same		   60416	KEPSA renewal list 2011-Final(2).xls
+	          same		   69632	KEPSA renewal list 2011-Final.xls
+	          same		  292864	KEPSA RHEA.doc
+	          same		  257841	KEPSA_V1.pdf
+	          same		   15014	Medical list 2012.xlsx
+	          same		   20937	Medical list.docx
+	          same		   23352	Medical list2.docx
+	          same		   17920	Thumbs.db
+	          same		   24064	transfer.letter-KEPSA.doc
+	          same		     162	~$dical list2.docx
+	          same		   13216	~gm502C(2).png
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Kepsa\Carole Kariuki\
+	          same		   34816	Bank Details (4).doc
+	          same		  272608	Carole Kariuki.pdf
+	          same		  174161	Carole Kariuki.xlsx
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Synthesys\
+	          same		   66043	Avenue Healthcare's Proposal - Synthesis Systems - Lifecare.pdf
+	          same		   10135	Synthesys staff.xlsx
+	          same		  195584	Synthesys Systems 2011 Lifecare.doc
+	          same		   80896	Synthesys Systems 2011 Lifecare.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Synthesys\Avenue\
+	          same		   60980	Avenue Healthcare's Proposal - Inpatient Synthesys - Lifecare.pdf
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Synthesys\BA\
+	          same		   86528	Synthesys Systems 2011 Lifecare(1).xls
+	          same		  187392	Synthesys Systems 2011 Lifecare2.doc
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Tenders\
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Tenders\Vsf belgium\
+	          same		  136704	VSF Belgium- 2011 Tender(1).doc
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Corporates\Wanjiru Eve\
+	          same		   72983	African Gold, Wanjiru Eve.pdf
+	          same		   53841	African Gold, Wanjiru Eve.xlsx
+	                   7	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\David\
+	          same		  301840	David Mugomba.pdf
+	          same		  264704	David Mugomba.xls
+	          same		  151903	David.pdf
+	          same		   86676	IHI Bupa Travel Quote ForDavid.pdf
+	          same		  122880	IHI Bupa Travel Quote ForDavid.xls
+	          same		  280167	Mugomba.pdf
+	          same		  167908	Mugomba.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Diana\
+	          same		  310970	Khanjila.pdf
+	          same		  262656	Khanjila.xls
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Gilbert\
+	          same		  275886	Gilbert Gatali.pdf
+	          same		  185852	Gilbert Gatali.xlsx
+	          same		  217545	Gilbert.pdf
+	          same		  220672	Gilbert.xls
+	          same		   66961	Q.pdf
+	          same		   20992	Thumbs.db
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Hiren A. Joshi\
+	          same		  297144	Hiren International .pdf
+	          same		  330595	Hiren Local.pdf
+	          same		   87500	Hiren rv.pdf
+	          same		  261632	Hiren.xls
+	          same		  140800	Joshi.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Jacqueline\
+	          same		   71960	Jacqueline.pdf
+	          same		   61204	Jacqueline.xlsx
+	                   6	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Jayne\
+	          same		   97622	David.pdf
+	          same		   72306	jane.pdf
+	          same		  184885	jane.xlsx
+	          same		  147247	Jayne.pdf
+	          same		  166912	Jayne.xls
+	          same		     165	~$jane.xlsx
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Joyce Shamshudin\
+	          same		  273558	Joyce Shamshudin.pdf
+	          same		  159879	Joyce Shamshudin.xlsx
+	          same		   18432	Thumbs.db
+	          same		     165	~$Joyce Shamshudin.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Mcwest\
+	          same		  270713	Christine.pdf
+	          same		   53763	Christine.xlsx
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Mr Abdulrab Virjee\
+	          same		  270056	Abdulrab Virjee International.pdf
+	          same		  196733	Abdulrab Virjee International.xlsx
+	          same		  263680	Abdulrab Virjee Local.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Mungai\
+	          same		  321228	Mungai.pdf
+	          same		  261120	Mungai.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Oanda\
+	          same		   77235	OANDA.pdf
+	          same		  140288	OANDA.xls
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Omar\
+	          same		   67696	Lwande.pdf
+	          same		  279233	Omar.pdf
+	          same		  162318	Omar.xlsx
+	          same		     165	~$Omar.xlsx
+	                  15	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Shabir\
+	          same		  320714	Asian Heart Institute 001.jpg
+	          same		  286775	Asian Heart Institute 002.jpg
+	          same		  237066	Asian Heart Institute.jpg
+	          same		  474252	Nairobi heart clinic 001.jpg
+	          same		  476050	Nairobi heart clinic 002.jpg
+	          same		  288519	Nairobi heart clinic 003.jpg
+	          same		  265095	Nairobi heart clinic 004.jpg
+	          same		  117931	Nairobi heart clinic 005.jpg
+	          same		  460440	Prime care page 1.jpg
+	          same		  594746	Prime care page 2.jpg
+	          same		  362357	Prime care page 3.jpg
+	          same		  127365	Prime care page 4.jpg
+	          same		  238697	Prime care.jpg
+	          same		  218396	Pulmonologist letter.jpg
+	          same		   43520	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Shadrack\
+	          same		   88196	IHI Bupa Travel Quote For Mr. Karabilo.pdf
+	          same		  131584	IHI Bupa Travel Quote For Mr. Karabilo.xls
+	                   5	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Tanvir Haq\
+	          same		   86598	IHI Bupa Travel Quote For Tanvir Haq.pdf
+	          same		  122880	IHI Bupa Travel Quote For Tanvir Haq.xls
+	          same		   95744	KEPSA PROFILE.doc
+	          same		   71020	Tanvir Lifeline international.pdf
+	          same		   59541	Tanvir Lifeline international.xlsx
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Templates\
+	          same		  326656	Local.xls
+	          same		  421376	Quotation - Int.xls
+	          same		  308736	Quotations -  Local.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Veit\
+	          same		  258098	Veit Kessen.pdf
+	          same		  169054	Veit Kessen.xlsx
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Xavi\
+	          same		  272851	Xavi International.pdf
+	          same		  198283	Xavi International.xlsx
+	          same		  291130	Xavi local.pdf
+	          same		  266240	Xavi local.xls
+	                   9	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Quotations\Zahid\
+	          same		   39424	MER providers.doc
+	          same		   76188	Zahid J.pdf
+	          same		  138752	Zahid J.xls
+	          same		  301946	Zahid local.pdf
+	          same		  267264	Zahid local.xls
+	          same		   81489	Zahid RHEA.pdf
+	          same		  141312	Zahid RHEA.xls
+	          same		  169248	Zahid.pdf
+	          same		   85939	Zahid.xlsx
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2011\Synthesys\
+	          same		   66043	Avenue Healthcare's Proposal - Synthesis Systems - Lifecare.pdf
+	          same		  195584	Synthesys Systems 2011 Lifecare.doc
+	          same		   80896	Synthesys Systems 2011 Lifecare.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Feb\
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Feb\Adriana\
+	          same		  297296	Adriana - Local.pdf
+	          same		  262656	Adriana - Local.xls
+	          same		  272949	Adriana.pdf
+	          same		  196566	Adriana.xlsx
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Feb\Computech\
+	          same		  117764	computech IHI.pdf
+	          same		  130560	computech IHI.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Feb\Jane sk\
+	          same		  128512	Jane sk.pdf
+	          same		  104747	Jane sk.xlsx
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Feb\kirkcaldy\
+	          same		  130560	computech IHI.xls
+	          same		  132571	Kirkcaldy.pdf
+	          same		  130560	Kirkcaldy.xls
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Feb\Rajesh\
+	          same		  284859	Rajesh.pdf
+	          same		  262144	Rajesh.xls
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Feb\Rosemary\
+	          same		  271850	Rosemary INT.pdf
+	          same		  198761	Rosemary INT.xlsx
+	          same		   77026	Rosemary local.pdf
+	          same		  138240	Rosemary local.xls
+	                   0	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Jan\
+	                   3	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Jan\Mr Abdulrab Virjee\
+	          same		  270056	Abdulrab Virjee International.pdf
+	          same		  196733	Abdulrab Virjee International.xlsx
+	          same		  263680	Abdulrab Virjee Local.xls
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Jan\Synthesys\
+	          same		   66043	Avenue Healthcare's Proposal - Synthesis Systems - Lifecare.pdf
+	          same		   10135	Synthesys staff.xlsx
+	          same		  195584	Synthesys Systems 2011 Lifecare.doc
+	          same		   80896	Synthesys Systems 2011 Lifecare.xls
+	                   1	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Jan\Synthesys\Avenue\
+	          same		   60980	Avenue Healthcare's Proposal - Inpatient Synthesys - Lifecare.pdf
+	                   2	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Jan\Synthesys\BA\
+	          same		   86528	Synthesys Systems 2011 Lifecare(1).xls
+	          same		  187392	Synthesys Systems 2011 Lifecare2.doc
+	                   4	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Jan\Xavi\
+	          same		  272851	Xavi International.pdf
+	          same		  198283	Xavi International.xlsx
+	          same		  291130	Xavi local.pdf
+	          same		  266240	Xavi local.xls
+	                   9	\\192.168.8.99\h$\Sales\PHARIS\Quotations\2012\Jan\Zahid\
+	          same		   39424	MER providers.doc
+	          same		   76188	Zahid J.pdf
+	          same		  138752	Zahid J.xls
+	          same		  301946	Zahid local.pdf
+	          same		  267264	Zahid local.xls
+	          same		   81489	Zahid RHEA.pdf
+	          same		  141312	Zahid RHEA.xls
+	          same		  169248	Zahid.pdf
+	          same		   85939	Zahid.xlsx
+	                   5	\\192.168.8.99\h$\Sales\PIPELINE\
+	          same		   17547	Amyn -Pipeline.xlsx
+	          same		   15549	Amyn-29-10-2012.xlsx
+	          same		   22596	LEADS -LMS.xlsx
+	          same		   16363	Pipeline-.xlsx
+	          same		     165	~$LEADS -LMS.xlsx
+	                   4	\\192.168.8.99\h$\Sales\quotation template\
+	          same		  147593	BUPA VITAL TEMPLATE (1).xlsx
+	          same		   95522	IPMI-Zuleikha.xlsx
+	          same		  131584	IPMI.xls
+	          same		  237568	LPMI.xls
+	                  15	\\192.168.8.99\h$\Sales\quotations\
+	          same		   82337	Amritlal Sodi Chana.pdf
+	          same		   94720	Chatur Group (Life Care Int) 06-09-2012 Revised.doc
+	          same		   22964	Chatur Group - Area 1 LS + WC Lifestyle plus Wellness.pdf
+	          same		  148992	Gulshan Karmali 4th September 2012.xls
+	          same		   46592	Heron Court.xls
+	          same		   14561	jamii options.xlsx
+	          same		  186368	Local Private Medical Insurance-Decase Chemicals(2).xls
+	          same		  239104	MANOJ-LPMI.xls
+	          same		   73216	Mansoorali Juddha.xls
+	          same		   72218	Mary Nyachae Jubilee quotation 6th September 2012.pdf
+	          same		  153366	Satnam Singh-IPMI-August 2012.pdf
+	          same		   79360	Thumbs.db
+	          same		   39424	Uniserve -Analysis.xls
+	          same		  144492	vital chatur-Vital.pdf
+	          same		   77696	Zuleikha- BWHO 13th ugust 2012.pdf
+	                   2	\\192.168.8.99\h$\Sales\quotations\Access Kenya\
+	          same		   2.5 m	ACCESS KENYA DOCUMENTS0001.pdf
+	          same		    9728	Thumbs.db
+	                   8	\\192.168.8.99\h$\Sales\quotations\C. DORMAN\
+	          same		   61646	Avenue Healthcare's Proposal - C Dormans Lifecare.pdf
+	          same		   42496	Copy of Dormans- -analysis.xls
+	          same		  116736	DORMAN LIMITED GROUP120312 AAR.XLS
+	          same		  307200	DORMAN LIMITED RHEAL.doc
+	          same		  202752	DORMAN LIMITED RHEAL.xls
+	          same		   39185	Dormans Coffee GA Insurance.pdf
+	          same		   78848	Dormans Limited  (Life Care International) 12-03- 2012 Jubilee.doc
+	          same		   21504	Thumbs.db
+	                   8	\\192.168.8.99\h$\Sales\quotations\Eveready\
+	          same		   72472	Avenue Healthcare's Proposal - Eveready - Lifecare(1)11th October 2011.pdf
+	          same		  107008	EEAL Family sizes and D.O.B(1)(1).xls
+	          same		  301568	EVEREADY 2011(1) RHEAL 12th October 2011.doc
+	          same		  226304	EVEREADY 2011(1) RHEAL 12th October 2011.xls
+	          same		  301056	EVEREADY 2011-RHEAL 10th October 2011.doc
+	          same		  212480	EVEREADY 2011RHEAL 10th October 2011.xls
+	          same		  102400	Eveready Batteries - Lifecare Int ( 14-10-2011) Jubilee 14th October 2011.doc
+	          same		   52736	Sales Activity - 19 March 2012(3)(1).xls
+	                   7	\\192.168.8.99\h$\Sales\quotations\EVEREADY 2012\
+	          same		   34816	2012 Colleague List.xls
+	          same		   37963	APA PREFFERED PROVIDER PANEL 2012.pdf
+	          same		   75607	Avenue Healthcare's Proposal - Eveready - Lifecare Revised 2012.pdf
+	          same		   33792	Copy of Eveready -Analysis.xls
+	          same		  100352	EEAL Family sizes and D.O.B -2.xls
+	          same		  131072	Eveready Batteries - Lifecare( 20-02-2012) Jubilee.doc
+	          same		   73011	EVEREADY GROUP - Lifecare Intl - Amyn Khan APA.pdf
+	                  15	\\192.168.8.99\h$\Sales\quotations\Hchem\
+	          same		   25138	AVENUE -ANALYSIS.xlsx
+	          same		   63543	Avenue Healthcare's Proposal - High Chem Lifecare Family 2012(1)(1).pdf
+	          same		   63543	Avenue Healthcare's Proposal - High Chem Lifecare Family 2012.pdf
+	          same		  125952	Copy of Highchen re analysis-2.xls
+	          same		   89600	Copy of Highchen re analysis-J care.xls
+	          same		   25927	Hichem rev.xlsx
+	          same		  308736	HIGH CHEM RHEAL.doc
+	          same		  125440	HIGH CHEM RHEAL.xls
+	          same		   26624	HIGH CHEM-ANALYSIS TEMPLTE.xls
+	          same		   55296	HIGHCHEM ANALYSIS REVISED 29th February 2012.xls
+	          same		   93696	Highchem East Africa (Lifecare Int) 14-02-2012 Jubilee.doc
+	          same		  109056	Highchem East Africa (Lifecare Int) 27-02-2012.doc
+	          same		  194048	HIGHCHEM GROUP -  2012 BRITAC.doc
+	          same		  134656	HIGHCHEM GROUP - 2012 BRITAC.xls
+	          same		   59392	Highchen re analysis-JUBILEE.xls
+	                   7	\\192.168.8.99\h$\Sales\quotations\HERON HOTEL\
+	          same		   62025	Avenue Healthcare's Proposal - Heron Hotel.pdf
+	          same		   87040	Heron Court Hotel- Lifecare(11-01-2011) Jubilee quotation.doc
+	          same		  207872	HERON COURT HOTELS(1) RHEA 12th January 2012.xls
+	          same		  301056	HERON COURT HOTELS(1) RHEAL.doc
+	          same		   34263	Heron Hotel Group.pdf
+	          same		  434899	RHEAL Medical Services Providers Oct2011(17).pdf
+	          same		   32768	Thumbs.db
+	                  22	\\192.168.8.99\h$\Sales\quotations\JAMII BORA BANK\
+	          same		   65899	Avenue Healthcare's Proposal - Jamii Bora IP Only - Lifecare Revised(1).pdf
+	          same		   65899	Avenue Healthcare's Proposal - Jamii Bora IP Only - Lifecare Revised.pdf
+	          same		   12383	FINAL ANALYSIS.xlsx
+	          same		   37376	Insurance premiums Summary analysis.doc
+	          same		   13390	Jamii Bora Analysis-2.xlsx
+	          same		   13077	Jamii Bora Analysis.xlsx
+	          same		   14252	JAMII BORA BANK LIST.xlsx
+	          same		  196608	Jamii Bora Bank Ltd 2012 Lifecare(1) BRITAK.doc
+	          same		   95232	Jamii Bora Bank Ltd 2012 Lifecare(1) BRITAK.xls
+	          same		   11069	JAMII BORA BANK.xlsx
+	          same		   36864	Jamii Bora Benefit Comparison of Service Providers.xls
+	          same		  299520	JAMII BORA(1) RHEAL.doc
+	          same		  200192	JAMII BORA(1) RHEAL.xls
+	          same		   83968	Jamii Bora-Analysis.xls
+	          same		   30208	jamii options-GA and AH.xls
+	          same		   95232	JBB STAFF GRADING PROPOSALS.xls
+	          same		   27136	JBBKL GRADING STRUCTURE1.doc
+	          same		   93184	JBBKL Medical(3).doc
+	          same		  118784	JBBL MEDICAL COVER DETAILS 2012 new(3).xls
+	          same		   21504	Thumbs.db
+	          same		     165	~$Jamii Bora Analysis-2.xlsx
+	          same		     165	~$Jamii Bora Analysis.xlsx
+	                   4	\\192.168.8.99\h$\Sales\quotations\JAMII BORA BANK\Invoices and statements\
+	          same		   48552	Jamii Bora - 12.09.2012.pdf
+	          same		   50712	Jamii Bora - Avenue(2).pdf
+	          same		   50660	Jamii Bora - Avenue.pdf
+	          same		   43139	Jamii Bora Bank(1).pdf
+	                   5	\\192.168.8.99\h$\Sales\quotations\JAMII BORA BANK\jamii new proposal\
+	          same		   21880	image004(62).png
+	          same		  200192	Jamii Bora Bank Ltd 2012 Lifecare(3).doc
+	          same		  330240	Jamii Bora Bank Ltd 2012 Lifecare(3).xls
+	          same		   12181	Jamii Bora.xlsx
+	          same		     165	~$Jamii Bora.xlsx
+	                  12	\\192.168.8.99\h$\Sales\quotations\JAMII BORA BANK\New Proposals\
+	          same		   13218	ANALYSIS-GA-AVH.xlsx
+	          same		   63249	Avenue Healthcare's Proposal - Jamii Bora - Lifecare Family.pdf
+	          same		       0	AVENUE-GA.docx
+	          same		   15326	Copy of jamii analysis-3.xlsx
+	          same		   31232	FINAL ANALYSIS.xls
+	          same		  199168	Jamii Bora Bank Ltd 2012 Lifecare 2(2).doc
+	          same		   83968	Jamii Bora Bank Ltd 2012 Lifecare 2(2).xls
+	          same		   35339	Jamii Boraa Cover-14-06-2012-GA.pdf
+	          same		   59924	Jamii Boraa Cover-28-05-2012(1)GA.pdf
+	          same		   20480	Thumbs.db
+	          same		     165	~$ANALYSIS-GA-AVH.xlsx
+	          same		     165	~$Copy of jamii analysis-3.xlsx
+	                   8	\\192.168.8.99\h$\Sales\quotations\JAMII BORA BANK\New Proposals\New Folder\
+	          same		   10084	Jamii Bora-Midle & Snr Mgmnt list.xlsx
+	          same		   10919	JAMII NO FAMILY.xlsx
+	          same		   60120	JAMII-1.xlsx
+	          same		   56483	JAMII-2.xlsx
+	          same		   10390	OTHERS -LIST.xlsx
+	          same		     165	~$Jamii Bora-Midle & Snr Mgmnt list.xlsx
+	          same		     165	~$JAMII NO FAMILY.xlsx
+	          same		     165	~$JAMII-1.xlsx
+	                  18	\\192.168.8.99\h$\Sales\quotations\quality packers revised\
+	          same		  102827	5107524-FSA-GENE-DCF-11v06.1 Data Consent Form(1).pdf
+	          same		  500901	5107524-OE11121561724 Bupa Quotation 15th december 2011.pdf
+	          same		   47888	Avenue Healthcare's Pro-forma Invoice - Quality Meat Packers(1).pdf
+	          same		   70091	Avenue Healthcare's Proposal - Quality Meat Revised - Lifecare International 13th December 2011.pdf
+	          same		   30894	Client Instructions form - Prepaid(6)(1).pdf
+	          same		   38784	Corporate Application Form B&W(6)(1).pdf
+	          same		  827326	FSA-VITA-APPF-11 v10 1 LR D4(1).pdf
+	          same		  111941	FSA-VITA-GDEC-11.v10.1(1).pdf
+	          same		  200969	fsa_compe87_11v101_GRPdetails_INT(1).pdf
+	          same		   11194	KEPSA-AK.xlsx
+	          same		   21504	Medical Cover List revised(2).xls
+	          same		   27136	Names for Avenue Healthcare -Cover for Quality Meat Packers.xls
+	          same		  149560	Quality meat -Vital Africa For Entire Group.pdf
+	          same		   91136	Quality Meat Packers(2) 13th December 2011.doc
+	          same		   29184	Quality Meat Packers- Schedule 13th December 2011.xls
+	          same		  295424	QUALITY MEAT PACKERS-REV 13th December 2011.doc
+	          same		  204800	QUALITY MEAT PACKERS-REV 13th December 2011.xls
+	          same		  317344	Quality packers -IPMI 13th December 2011.pdf
+	                   6	\\192.168.8.99\h$\Sales\quotations\RHEAL Renewal of 1st July 2012 plus OTHERS\
+	          same		  193536	British American.doc
+	          same		   44966	JAVA FROM GA INSURANCE.pdf
+	          same		  188289	MedicalProviders-2011(1) Britak.pdf
+	          same		  113664	Nairobi Java (Life Care International) 09-03-2012(1) Jubilee.doc
+	          same		  135168	NAIROBI JAVA HOUSE - 2012 Britak.xls
+	          same		   45056	Thumbs.db
+	                   2	\\192.168.8.99\h$\Sales\quotations\TETRAPAK\
+	          same		   35328	TETRAPAK ANALSYS.xls
+	          same		   10270	TETRAPARK STAFF SUMMARY.xlsx
+	                   2	\\192.168.8.99\h$\Sales\quotations\TETRAPAK\RHEA\
+	          same		  114916	Tetra Pak.docx
+	          same		  114688	Tetra Pak.xls
+	                   2	\\192.168.8.99\h$\Sales\quotations\TETRAPAK\Tetrapark-GA\
+	          same		   37704	TETRAPARK.pdf
+	          same		   30720	TETRAPARK.xls
+	                  13	\\192.168.8.99\h$\Sales\SALES LEADS\
+	          same		   61952	ACTION PLAN LIST - 1ST QTR 2012.doc
+	          same		   19968	Catholic Missions in Kenya.xls
+	          same		   27588	Feb fair enquiries(1)(1).xlsx
+	          same		   21730	KEPSA MEMBERSHIP.xlsx
+	          same		   15055	leads from sales last week feb.xlsx
+	          same		   14519	NGO   POSTED.xlsx
+	          same		  572416	NGO for counter check.xls
+	          same		   11867	NGO-ACTION PAN LIST.xlsx
+	          same		   68215	Pharis Leads(1) (Autosaved).xlsx
+	          same		   43618	Sales Data Base.xlsx
+	          same		  104960	Unilink Feb fair enquiries(2).xls
+	          same		     165	~$KWCWC Database.xlsx
+	          same		     165	~$Sales Data Base.xlsx
+	                   9	\\192.168.8.99\h$\Sales\SALES LEADS\AMYN\
+	          same		   68096	AMYN  SALES CARDS.xls
+	          same		   16564	CORPRATES LIST-AMYN.xlsx
+	          same		   5.2 m	faisal DB-3.xls
+	          same		   5.3 m	FAISAL DB.xls
+	          same		   36008	KWCWC Database.xlsx
+	          same		  918016	Mr Amyn,s Template for Goldmine(1)(1).xls
+	          same		  311296	NGO East  Africa Contacts(1).xls
+	          same		  368640	Template for Goldmine Urgent(1).xls
+	          same		  479905	WORD DB TO EXCEL.xlsx
+	                  19	\\192.168.8.99\h$\Sales\SALES LEADS\leads introduction mail\
+	          same		   34314	AMYN CARDS.xlsx
+	          same		  428349	Biz cards 001(2).jpg
+	          same		  213909	Biz cards 002(2).jpg
+	          same		   14829	Copy of mails-20-25.xlsx
+	          same		   10475	hanif DB.xlsx
+	          same		   21734	KEPSA MEMBERSHIP.xlsx
+	          same		   15055	leads from sales.xlsx
+	          same		   16047	list of 100 mails.xlsx
+	          same		   14675	mails-20-25.xlsx
+	          same		   15974	NGO-ACTION PAN LIST.xlsx
+	          same		   28672	Prospects 1(1).xls
+	          same		   43520	Prospects 2(1).xls
+	          same		   81920	prospects 3 workings(1).xls
+	          same		    9296	RENEWALS(1).xlsx
+	          same		   11576	SALES LEADS.xlsx
+	          same		   93696	US Firms updated JAN 2011(1).doc
+	          same		     165	~$leads from sales.xlsx
+	          same		     165	~$list of 100 mails.xlsx
+	          same		     165	~$SALES LEADS.xlsx
+	                  13	\\192.168.8.99\h$\Sales\SALES LEADS\leads introduction mail\SALES LEADS\
+	          same		   57344	ACTION PLAN LIST - 1ST QTR 2012-2.doc
+	          same		   61952	ACTION PLAN LIST - 1ST QTR 2012.doc
+	          same		   19968	Catholic Missions in Kenya.xls
+	          same		   27588	Feb fair enquiries(1)(1).xlsx
+	          same		   21734	KEPSA MEMBERSHIP.xlsx
+	          same		   35535	KWCWC Database.xlsx
+	          same		   15055	leads from sales last week feb.xlsx
+	          same		   14519	NGO   POSTED.xlsx
+	          same		  572416	NGO for counter check.xls
+	          same		   11867	NGO-ACTION PAN LIST.xlsx
+	          same		  104960	Unilink Feb fair enquiries(2).xls
+	          same		     165	~$Sales Data Base.xlsx
+	          same		     162	~$TION PLAN LIST - 1ST QTR 2012.doc
+	                   5	\\192.168.8.99\h$\Sales\SALES LEADS\leads introduction mail\SALES LEADS\AMYN\
+	          same		   68096	AMYN  SALES CARDS.xls
+	          same		  918016	Mr Amyn,s Template for Goldmine(1)(1).xls
+	          same		  311296	NGO East  Africa Contacts(1).xls
+	          same		  368640	Template for Goldmine Urgent(1).xls
+	          same		  479905	WORD DB TO EXCEL.xlsx
+	                  11	\\192.168.8.99\h$\Sales\SALES LEADS\leads introduction mail\SALES LEADS\leads introduction mail\
+	          same		   34314	AMYN CARDS.xlsx
+	          same		   14829	Copy of mails-20-25.xlsx
+	          same		   10475	hanif DB.xlsx
+	          same		   21734	KEPSA MEMBERSHIP.xlsx
+	          same		   14675	mails-20-25.xlsx
+	          same		   14354	march 19-24.xlsx
+	          same		   15974	NGO-ACTION PAN LIST.xlsx
+	          same		    9296	RENEWALS(1).xlsx
+	          same		   93696	US Firms updated JAN 2011(1).doc
+	          same		     162	~$ Firms updated JAN 2011(1).doc
+	          same		     165	~$SALES LEADS.xlsx
+	                   3	\\192.168.8.99\h$\Sales\SALES LEADS\leads introduction mail\SALES LEADS\TAIRA\
+	          same		   97280	Golf &  Events(1).xls
+	          same		  837120	Lapsed members  List - All Databases(1)(2).xls
+	          same		  576512	NGO(2).xls
+	                   3	\\192.168.8.99\h$\Sales\SALES LEADS\TAIRA\
+	          same		   97280	Golf &  Events(1).xls
+	          same		  854016	Lapsed members  List - All Databases(1)(2).xls
+	          same		  576512	NGO(2).xls
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       312         0       312         0         0         0
+   Files :      1201         0      1201         0         0         0
+   Bytes :  229.81 m         0  229.81 m         0         0         0
+   Times :   0:03:57   0:00:00                       0:00:00   0:03:57
+   Ended : Wednesday, February 21, 2018 6:55:07 AM
+
